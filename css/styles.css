@@ -1,0 +1,156 @@
+.prev, .next {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .6);
+    transition: zoom .2s;
+    height:calc(100% - 120px); 
+    z-index: 1;
+}
+.prevnextSmall{
+    align-items: flex-end;
+}
+.prevnextSmall .prev, .prevnextSmall .next{
+    height: 100%;
+}
+
+.next {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.prev svg {
+    margin-left: -2rem;
+    margin-right: 2.25rem;
+}
+
+.next svg {
+    margin-right: -2rem;
+    margin-left: 2.25rem;
+}
+
+.prevnext{
+    align-items: flex-end;
+}
+
+#tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tabs li {
+    float: left;
+    border-bottom: 1px solid #E2E6E9;
+}
+
+#tabs li a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#tabs li:hover {
+    color: #16222E;
+}
+
+#tabs .active {
+    color: #0073FF;
+    border-bottom: 2px solid #0073FF;
+    font-weight: bold;
+}
+
+#tabs .active:hover {
+    color: #0073FF;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+}
+
+.project {
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project div {
+    width: fit-content;
+    padding: 32px 64px 40px 40px;
+    backdrop-filter: blur(30px);
+}
+
+.project span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#contact {
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    place-content: center;
+    position: absolute;
+    display: flex;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), rgba(22, 34, 46, 0.01);
+    backdrop-filter: blur(50px);
+    left: calc(50% - 40px);
+}
+
+#more {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    cursor: zoom-in;
+    color: #ffffff;
+    background: rgba(22, 34, 46, .8);
+}
+
+.preview {
+    height:100%;
+    cursor: zoom-in;
+    transition: ease-in-out transform .8s;
+    transform: scale(1.05);
+}
+
+.previewparent{
+    overflow: hidden;
+}
+
+.preview:hover{
+    transform: scale(1.1);
+}
+
+.contacts{
+    text-align: left;
+}
+
+.contacts img{
+    height: 2.5rem;
+    margin-bottom: 1.2rem;
+    margin-top: -1rem;
+}
+
+.contacts .p6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+    border-top: 1px solid #F2F3F5;
+    border-left: 1px solid #F2F3F5;
+}

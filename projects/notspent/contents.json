@@ -1,0 +1,49 @@
+{
+    "title": "NotSpent 💰",
+    "paragraph": "NotSpent is a small design project that I did as a one-week challenge. It's a concept of an app for finance management & planning. Based on competitor research. The main functionality includes:<br><br> • family budget management<br> • multiple cards & bank accounts <br> • savings & expense history <br> • categorized data ",
+    "facts": [
+    {
+        "fact": "project hours",
+        "value": "30-hour challenge"
+    },{
+        "fact": "country",
+        "value": "My imagination 🤯"
+    }],
+    "images": [{
+        "name": "App icon",
+        "description": "Just a quick concept",
+        "link": "/mywebsite/projects/notspent/notspent.jpg"
+    },
+    {
+        "name": "20+ screens",
+        "description": "With nearly 10 hours spent for a quick research, I used the remaining 20 hours to work on the UI",
+        "link": "/mywebsite/projects/notspent/1.jpg"
+    },
+    {
+        "name": "Spending by categories",
+        "description": "The homescreen shows spendings by category with some useful info - budget alerts, spending frequency and more.",
+        "link": "/mywebsite/projects/notspent/categories.png"
+    },
+    {
+        "name": "Savings & goals",
+        "description": "A part of the app that allows you to lock some funds and save it toward some goal",
+        "link": "/mywebsite/projects/notspent/savings.png"
+    },
+    {
+        "name": "Bank accounts & cards",
+        "description": "Add your payment methods, and if needed, for your family. See the history of expenses and some other useful info.",
+        "link": "/mywebsite/projects/notspent/accounts.png"
+    },
+    {
+        "name": "Budget planning",
+        "description": "A part of the app that allows you to lock some funds and save it toward some goal",
+        "link": "/mywebsite/projects/notspent/budget.png"
+    },
+    {
+        "name": "Profile",
+        "description": "A part of the app that allows you to lock some funds and save it toward some goal",
+        "link": "/mywebsite/projects/notspent/profile.png"
+    }
+
+    ]
+}

@@ -1,0 +1,74 @@
+<style>
+    
+.btrigger{
+    position: fixed;
+    bottom: 10%;
+    right: 0px;
+    background: rgba(22, 34, 46, .5);
+    backdrop-filter: blur(200px);
+    padding: 20px;
+    z-index: 100;
+}
+
+#bmenu{
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+    right: 0;
+    background:rgba(62, 74, 85, .8);
+    backdrop-filter: blur(50px);
+}
+
+#bmenu ul{
+    padding: 0;
+}
+
+#bmenu li{
+    list-style: none;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    width: 100%;
+}
+
+#bmenu a{
+    padding-left: 32px;
+    line-height: 72px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#bmenu .btrigger{
+    background: none;
+}
+</style>
+
+<div class="btrigger" onclick="triggerMenu();">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 5.76001V7.04001H32V5.76001H0ZM0 15.36V16.64H32V15.36H0ZM0 24.96V26.24H32V24.96H0Z" fill="white"/>
+    </svg>
+        
+</div>
+<div id="bmenu" class="hide">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pm.html">Product Management</a></li>
+        <li><a href="design.html">Product Design</a></li>
+        <li><a href="">About me</a></li>
+    </ul>
+    <div style="position: fixed; bottom: 10%; width: 100%; background: rgba(22, 34, 46, .3); display: block;
+    width: 100%;">
+        <a href="#">Contact me</a>
+    </div>
+    
+    <div class="btrigger" onclick="triggerMenu();">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.40002 4.48002C5.14597 4.22597 4.73407 4.22597 4.48002 4.48002C4.22597 4.73407 4.22597 5.14597 4.48002 5.40002L15.08 16L4.48002 26.6C4.22597 26.8541 4.22597 27.266 4.48002 27.52C4.73407 27.7741 5.14597 27.7741 5.40002 27.52L16 16.92L26.6 27.52C26.8541 27.7741 27.266 27.7741 27.52 27.52C27.7741 27.266 27.7741 26.8541 27.52 26.6L16.92 16L27.52 5.40002C27.7741 5.14597 27.7741 4.73407 27.52 4.48002C27.266 4.22597 26.8541 4.22597 26.6 4.48002L16 15.08L5.40002 4.48002Z" fill="white"/>
+        </svg>
+    </div>
+</div>

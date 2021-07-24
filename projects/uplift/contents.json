@@ -1,0 +1,27 @@
+{
+    "title": "Project Name",
+    "paragraph": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque  lacinia quam venenatis vestibulum. Nullam id nibh ultricies vehicula. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "facts": [{
+        "fact": "PROJECT HOURS",
+        "value": "1000+"
+    },{
+        "fact": "COUNTRY",
+        "value": "Switzerland 🇨🇭"
+    }],
+    "images": [{
+        "name": "Image title",
+        "description": "A short description",
+        "link": "/mywebsite/projects/1/Rectangle22.png"
+    },
+    {
+        "name": "Title 2",
+        "description": "Description 2",
+        "link": "/mywebsite/projects/1/Rectangle24.png"
+    },
+    {
+        "name": "Title",
+        "description": "",
+        "link": "/mywebsite/projects/1/Group6.png"
+    }
+    ]
+}
