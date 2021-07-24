@@ -10,7 +10,6 @@ let submit = function(){
         document.getElementsByName("email")[0].setAttribute("onchange","validate(e)");
         document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
     }
-    console.log(embed);
 }
 let validate=function(e){
     if(e.target.value.checkValidity){
