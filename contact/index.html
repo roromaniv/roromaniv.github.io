@@ -15,12 +15,12 @@
                 <p class="t-dark">Not always looking for a client, but always looking forward a good conversation</p>
             </div>
             <div class="t-dark p8 column fw" style="place-content: center;">
-                <div id="contactform">
+                <form id="contactform" onsubmit="">
                     <input required type="text" name="name" placeholder="Full Name" />
                     <input required type="email" name="email" placeholder="Email" />
                     <textarea style="height: 80px;" maxlength="800" name="message" placeholder="Message"></textarea><br>
-                    <button onclick="submit()" class="black t-white" style="cursor: pointer; border: none; width: fit-content; padding: 1rem 1.5rem; height: auto;">Send</button>
-                </div>
+                    <input type="submit" onclick="submit()" class="black t-white" value="Send" style="cursor: pointer; border: none; width: fit-content; padding: 1rem 1.5rem; height: auto;" />
+                </form>
                   
             </div>
         </div>
