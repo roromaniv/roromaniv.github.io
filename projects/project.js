@@ -2,7 +2,7 @@ var galleryContents;
 
 let hashcheck = function (){
     if(window.location.href.includes("projects")){
-        projectInit(window.location.href.split("projects")[1].replace('/',''));
+        projectInit(window.location.href.split("projects")[1].split('/')[1]);
     }
 }
 
