@@ -8,6 +8,7 @@ let submit = function(){
     else
     {
         document.getElementsByName("email")[0].setAttribute("oninput","validate(this)");
+        document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
     }
 }
 let validate=function(obj){
