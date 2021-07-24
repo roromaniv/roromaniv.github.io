@@ -1,8 +1,22 @@
 let submit = function(){
-    let values = [document.getElementsByName("name")[0].value,document.getElementsByName("message")[0].value,document.getElementsByName("email")[0].value];
-    let req = "https://maker.ifttt.com/trigger/contact/with/key/KjsjUkae4gJm-W8xYRIyK?value1=" + escape(values[0]) + "&value2=" + escape(values[1]) + "&value3=" + escape(values[2]);
-    let embed = "<iframe style='display:none; width:0px; height:0px;' onload='this.remove()' src='" + req + "'></iframe>";
-    document.getElementById("contactform").insertAdjacentHTML("afterend",embed);
-
+    if(document.getElementsByName("email")[0].checkValidity()){
+        let values = [document.getElementsByName("name")[0].value,document.getElementsByName("message")[0].value,document.getElementsByName("email")[0].value];
+        let req = "https://maker.ifttt.com/trigger/contact/with/key/KjsjUkae4gJm-W8xYRIyK?value1=" + escape(values[0]) + "&value2=" + escape(values[1]) + "&value3=" + escape(values[2]);
+        let embed = "<iframe style='display:none; width:0px; height:0px;' onload='this.remove()' src='" + req + "'></iframe>";
+        document.getElementById("contactform").insertAdjacentHTML("afterend",embed);
+    }
+    else
+    {
+        document.getElementsByName("email")[0].setAttribute("onchange","validate(e)");
+        document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
+    }
     console.log(embed);
+}
+let validate=function(e){
+    if(e.target.value.checkValidity){
+        document.getElementsByName("email")[0].style.borderBottom="2px solid darkcyan";
+    }
+    else{
+        document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
+    }
 }
