@@ -7,13 +7,12 @@ let submit = function(){
     }
     else
     {
-        document.getElementsByName("email")[0].setAttribute("onchange","validate(this)");
+        document.getElementsByName("email")[0].setAttribute("oninput","validate(this)");
     }
 }
 let validate=function(obj){
-    console.log(obj);
     if(obj.value.checkValidity){
-        obj.style.borderBottom="inherit";
+        obj.style.setAttribute("style","");
     }
     else{
         obj.style.borderBottom="2px solid crimson";
