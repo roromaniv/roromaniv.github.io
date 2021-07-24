@@ -7,15 +7,15 @@ let submit = function(){
     }
     else
     {
-        document.getElementsByName("email")[0].setAttribute("onchange","validate(e)");
-        document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
+        document.getElementsByName("email")[0].setAttribute("onchange","validate(this)");
     }
 }
-let validate=function(e){
+let validate=function(this){
+    console.log(this);
     if(e.target.value.checkValidity){
-        document.getElementsByName("email")[0].style.borderBottom="2px solid darkcyan";
+        e.target.style.borderBottom="2px solid darkcyan";
     }
     else{
-        document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
+        e.target.style.borderBottom="2px solid crimson";
     }
 }
