@@ -7,16 +7,6 @@ let submit = function(){
     }
     else
     {
-        document.getElementsByName("email")[0].setAttribute("oncuechange","validate(obj)");
-        document.getElementsByName("email")[0].style.borderBottom="2px solid crimson";
-    }
-}
-let validate=function(obj){
-    console.log(obj);
-    if(obj.value.checkValidity){
-        obj.style.setAttribute("style","");
-    }
-    else{
-        obj.style.borderBottom="2px solid crimson";
+        document.getElementsByName("email")[0].checkValidity();
     }
 }
