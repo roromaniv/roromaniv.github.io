@@ -10,10 +10,10 @@ let submit = function(){
         document.getElementsByName("email")[0].setAttribute("onchange","validate(this)");
     }
 }
-let validate=function(this){
-    console.log(this);
+let validate=function(e){
+    console.log(e);
     if(e.target.value.checkValidity){
-        e.target.style.borderBottom="2px solid darkcyan";
+        e.target.style.borderBottom="inherit";
     }
     else{
         e.target.style.borderBottom="2px solid crimson";
