@@ -1,7 +1,7 @@
 let galleryInit = function(index){
     //insert Gallery DOM
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', '/mywebsite/components/gallery/gallery.html');
+    xhr.open('GET', '/components/gallery/gallery.html');
     xhr.setRequestHeader("Cache-Control", "no-cache");
     xhr.onload = function() {
         document.body.insertAdjacentHTML("afterbegin", xhr.responseText.replace("GFRAME",generateFrames(index)));

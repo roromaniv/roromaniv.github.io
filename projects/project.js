@@ -8,7 +8,7 @@ let hashcheck = function (){
 
 let projectInit = function(projectIndex){
     let projectDOM = new XMLHttpRequest();
-    projectDOM.open('GET', ('/mywebsite/projects/project.html'));
+    projectDOM.open('GET', ('/projects/project.html'));
     projectDOM.setRequestHeader("Cache-Control", "no-cache");
     projectDOM.onload = function() {
         insertJSON(projectDOM.responseText.toString(), projectIndex);
@@ -18,7 +18,7 @@ let projectInit = function(projectIndex){
 
     let insertJSON = function(DOM, index){
         let json = new XMLHttpRequest();
-        json.open('GET', ('/mywebsite/projects/' + index + '/contents.json'));
+        json.open('GET', ('/projects/' + index + '/contents.json'));
         json.setRequestHeader("Cache-Control", "no-cache");
         json.onload = function() {
             let content = JSON.parse(json.responseText);
