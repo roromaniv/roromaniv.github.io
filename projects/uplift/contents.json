@@ -1,12 +1,12 @@
 {
-    "title": "Project Name",
-    "paragraph": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque  lacinia quam venenatis vestibulum. Nullam id nibh ultricies vehicula. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "title": "Uplift",
+    "paragraph": "<b>UpLift - Depression & Anxiety</b> is an app created to help those struggling with depression and mental health. Guided sessions, journalling advice, and much more. In a study, <b>52% of people reported a reduction in depression symptoms</b>. The app has received hundreds of positive reviews from people all across the world, including doctors and mental help experts.",
     "facts": [{
         "fact": "PROJECT HOURS",
-        "value": "1000+"
+        "value": "56"
     },{
         "fact": "COUNTRY",
-        "value": "Switzerland 🇨🇭"
+        "value": "United States 🇺🇸"
     }],
     "images": [{
         "name": "Image title",
