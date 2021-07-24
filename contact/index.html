@@ -15,10 +15,10 @@
                 <p class="t-dark">Not always looking for a client, but always looking forward a good conversation</p>
             </div>
             <div class="t-dark p8 column fw" style="place-content: center;">
-                <form onsubmit="event.preventDefault();" action="https://maker.ifttt.com/trigger/contact/with/key/KjsjUkae4gJm-W8xYRIyK" method="POST">
-                    <input required type="text" name="value1" placeholder="Full Name" />
-                    <input required type="email" name="value2" placeholder="Email" />
-                    <textarea style="height: 80px;" maxlength="800" name="value3" placeholder="Message"></textarea><br>
+                <form id="contact" onsubmit="submit();">
+                    <input required type="text" name="name" placeholder="Full Name" />
+                    <input required type="email" name="email" placeholder="Email" />
+                    <textarea style="height: 80px;" maxlength="800" name="message" placeholder="Message"></textarea><br>
                     <input class="black t-white" type="submit" value="Send" style="cursor: pointer; border: none; width: fit-content; padding: 1rem 1.5rem; height: auto;"/>
                   </form>
                   
@@ -55,5 +55,6 @@
 
     <script type="application/javascript" src="/components/tabs.js"></script>
     <script type="application/javascript" src="/components/bmenu/bmenu.js"></script>
+    <script type="application/javascript" src="/submit.js"></script>
 </body>
     </html>
