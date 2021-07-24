@@ -11,17 +11,17 @@
     "images": [{
         "name": "Image title",
         "description": "A short description",
-        "link": "/mywebsite/projects/1/Rectangle22.png"
+        "link": "/projects/1/Rectangle22.png"
     },
     {
         "name": "Title 2",
         "description": "Description 2",
-        "link": "/mywebsite/projects/1/Rectangle24.png"
+        "link": "/projects/1/Rectangle24.png"
     },
     {
         "name": "Title",
         "description": "",
-        "link": "/mywebsite/projects/1/Group6.png"
+        "link": "/projects/1/Group6.png"
     }
     ]
 }
