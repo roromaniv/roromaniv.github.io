@@ -97,5 +97,5 @@ h1+p, h2+p, h3+p {
 }
 
 .tile:hover{
-    filter: invert(.05);
+    filter: brightness(1.05);
 }
