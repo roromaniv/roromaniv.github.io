@@ -95,3 +95,7 @@ h1+p, h2+p, h3+p {
 .t-black {
     color: #16222E;
 }
+
+.tile:hover{
+    filter: brightness(1.1);
+}
