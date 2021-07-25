@@ -3,5 +3,5 @@ let submit = function(){
     let req = "https://maker.ifttt.com/trigger/contact/with/key/KjsjUkae4gJm-W8xYRIyK?value1=" + escape(values[0]) + "&value2=" + escape(values[1]) + "&value3=" + escape(values[2]);
     let embed = "<iframe style='display:none; width:0px; height:0px;' onload='this.remove()' src='" + req + "'></iframe>";
     document.getElementById("contactform").insertAdjacentHTML("afterend",embed);
-    document.getElementById("sucess").style.display="block";
+    document.getElementById("success").style.display="block";
 }
