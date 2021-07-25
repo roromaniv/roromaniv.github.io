@@ -67,10 +67,12 @@
 
 .show {
     display: block;
+    opacity: 100%;
 }
 
 .hide {
     display: none !important;
+    opacity: 0%;
 }
 
 .img {
