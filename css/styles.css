@@ -29,6 +29,7 @@
 
 .prevnext{
     align-items: flex-end;
+    justify-content: center;
 }
 
 #tabs {
