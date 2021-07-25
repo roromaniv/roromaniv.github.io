@@ -12,4 +12,6 @@ let envelope = function(){
 
     document.getElementById("formcontainer").style.display="block";
     document.getElementById("formcontainer").style.bottom="0px";
+
+    document.getElementById("contact").style.bottom="500px";
 }
