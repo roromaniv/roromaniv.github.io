@@ -105,6 +105,7 @@
     place-content: center;
     position: absolute;
     display: flex;
+    cursor: pointer;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), rgba(22, 34, 46, 0.01);
     backdrop-filter: blur(50px);
     left: calc(50% - 40px);
