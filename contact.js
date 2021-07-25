@@ -11,5 +11,5 @@ let envelope = function(){
     document.getElementById("shade").classList.add("show");
 
     document.getElementById("formcontainer").style.bottom="0px";
-    document.getElementById("formcontainer").style.opacity="100%";
+    document.getElementById("formcontainer").style.display="block";
 }
