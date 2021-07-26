@@ -178,6 +178,6 @@ input:focus-visible, textarea:focus-visible{
 }
 
 .showenvelope{
-    display: block;
+    display: block !important;
     bottom: 0px !important;
 }
