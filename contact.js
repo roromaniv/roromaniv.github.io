@@ -10,6 +10,7 @@ let envelope = function(){
     document.getElementById("shade").classList.remove("hide");
     document.getElementById("shade").classList.add("show");
 
+    document.getElementById("formcontainer").style.transition="all 1s ease-in-out";
     document.getElementById("formcontainer").style.display="block";
     document.getElementById("formcontainer").style.bottom="0px";
 
