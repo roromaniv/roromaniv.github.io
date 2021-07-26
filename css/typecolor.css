@@ -101,6 +101,6 @@ h1+p, h2+p, h3+p {
     transition: all .2s linear;
 }
 .tile.light:hover, .tile.medium:hover{
-    filter: brightness(1.03);
+    filter: brightness(1.02);
     transition: all .2s linear;
 }
