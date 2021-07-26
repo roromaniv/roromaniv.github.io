@@ -11,17 +11,27 @@
     "images": [{
         "name": "Image title",
         "description": "A short description",
-        "link": "/projects/1/Rectangle22.png"
+        "link": "/projects/uplift/uplift.jpg"
     },
     {
         "name": "Title 2",
         "description": "Description 2",
-        "link": "/projects/1/Rectangle24.png"
+        "link": "/projects/uplift/onboading.png"
     },
     {
         "name": "Title",
         "description": "",
-        "link": "/projects/1/Group6.png"
+        "link": "/projects/uplift/home.png"
+    },
+    {
+        "name": "Title",
+        "description": "",
+        "link": "/projects/uplift/shop.png"
+    },
+    {
+        "name": "Title",
+        "description": "",
+        "link": "/projects/uplift/illustrations.png"
     }
     ]
 }
