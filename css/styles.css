@@ -178,6 +178,7 @@ input:focus-visible, textarea:focus-visible{
 }
 
 .showenvelope{
+    transition: bottom 1s ease-in-out;
     display: block !important;
     bottom: 0px !important;
 }
