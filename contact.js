@@ -7,11 +7,17 @@ let submit = function(){
 }
 
 let envelope = function(){
-    document.getElementById("shade").classList.remove("hide");
-    document.getElementById("shade").classList.add("show");
-
-    document.getElementById("formcontainer").classList.add("showenvelope");
-
-    document.getElementById("contact").style.bottom="500px";
+    if(document.getElementById("shade").classList.contains("hide")){
+        document.getElementById("shade").classList.remove("hide");
+        document.getElementById("shade").classList.add("show");
+        document.getElementById("formcontainer").classList.add("showenvelope");
+        document.getElementById("contact").style.bottom="500px";
+    }
+    else{
+        document.getElementById("shade").classList.remove("show");
+        document.getElementById("shade").classList.add("hide");
+        document.getElementById("formcontainer").classList.remove("showenvelope");
+        document.getElementById("contact").style.bottom="0px";
+    }
 }
 
