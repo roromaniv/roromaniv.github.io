@@ -332,6 +332,9 @@ l-left
     .prevnext, .menu{
         display: none;
     }
+    .btrigger{
+        display: block;
+    }
     .head > .p8:first-child, .head > .p6:first-child {
         width: calc(100% - 80px);
     }
