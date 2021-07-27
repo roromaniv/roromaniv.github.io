@@ -22,8 +22,14 @@ let envelope = function(){
 }
 
 let switchToRight = function(link){
-    document.getElementsByClassName("head")[0].animate([
-        { transform: 'translate(0, 0)', opacity: 1 },
-        { transform: 'translate(-50%, 0)', opacity: 0}], 2000);
+ //   document.getElementsByClassName("head")[0].animate([
+   //     { transform: 'translate(0, 0)', opacity: 1 },
+     //   { transform: 'translate(-50%, 0)', opacity: 0}], 2000);
+
+    document.getElementsByClassName("head")[0].animate({
+        transform: ["translate(0,0)","translate(-50%,0)"],
+        opacity: [1,0],
+        easing: ["ease-out"],
+    }, 2000);
 }
 
