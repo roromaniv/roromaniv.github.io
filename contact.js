@@ -15,5 +15,5 @@ let envelope = function(){
     document.getElementById("contact").style.bottom="500px";
 }
 
-document.getElementById("contact").addEventListener("click", envelope());
+window.onload = function () { document.getElementById("contact").addEventListener("click", envelope())};
 document.getElementById("projectpage").insertAdjacentHTML("afterbegin",'<div id="shade" class="hide" style="height:100%; width:100%; position:fixed; background: rgba(0,0,0,.5); z-index: 2;"></div>');
