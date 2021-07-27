@@ -12,6 +12,10 @@ a{
     color: #0073FF;
 }
 
+.small{
+    font-size: 13px;
+}
+
 h1, h2, h3, .bold {
     font-weight: bold;
 }
