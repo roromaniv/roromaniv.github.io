@@ -201,6 +201,7 @@ input:focus-visible, textarea:focus-visible{
     background-position: center;
     border-radius: 32px;
     place-content: center;
+    justify-content: flex-end;
 }
 
 #reviews > div > p + div{
@@ -218,4 +219,7 @@ input:focus-visible, textarea:focus-visible{
 
 #switcher a{
     width: 40px;
+    display: flex;
+    place-content: center;
+    align-items: center;
 }
