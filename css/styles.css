@@ -38,6 +38,10 @@
     padding: 0;
 }
 
+#tabcontent{
+    margin-top: 1.5rem;
+}
+
 #tabs li {
     float: left;
     border-bottom: 1px solid #E2E6E9;
