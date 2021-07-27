@@ -26,6 +26,7 @@ let projectInit = function(projectIndex){
 
             //TEXT
             document.getElementById("title").innerHTML = content.title;
+            document.title = "Project – " + content.title;
             document.getElementById("paragraph").innerHTML = content.paragraph;
             for (let i = 0; i < content["facts"].length; i++) {
                 document.getElementById("facts").innerHTML += '<div class="fact column"><h3 class="mbs t-black">{{VALUE}}</h3><p>{{FACT}}</p></div>'.replace("{{FACT}}",content.facts[i]["fact"]).replace("{{VALUE}}",content.facts[i]["value"]);
