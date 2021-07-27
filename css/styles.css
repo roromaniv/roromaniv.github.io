@@ -202,3 +202,12 @@ input:focus-visible, textarea:focus-visible{
     border-radius: 32px;
     place-content: center;
 }
+
+#reviews > div > p + div{
+    border-left: 10px solid #F2F3F5;
+    border-top: 10px solid #F2F3F5;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    height: 0px;
+    width: 0px;
+}
