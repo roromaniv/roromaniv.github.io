@@ -201,7 +201,3 @@ input:focus-visible, textarea:focus-visible{
     background-position: center;
     border-radius: 32px;
 }
-
-#reviews > div > div{
-    display: inline-block;
-}
