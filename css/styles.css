@@ -211,3 +211,11 @@ input:focus-visible, textarea:focus-visible{
     height: 0px;
     width: 0px;
 }
+
+#switcher{
+    height: 40px;
+}
+
+#switcher a{
+    width: 40px;
+}
