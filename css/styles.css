@@ -196,8 +196,8 @@ input:focus-visible, textarea:focus-visible{
 }
 
 #reviews > div > div{
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
     background-size: cover;
     background-position: center;
     border-radius: 32px;
