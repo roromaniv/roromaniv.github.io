@@ -333,7 +333,7 @@ l-left
         display: none;
     }
     .btrigger{
-        display: block;
+        display: block !important;
     }
     .head > .p8:first-child, .head > .p6:first-child {
         width: calc(100% - 80px);
