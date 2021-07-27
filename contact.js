@@ -32,9 +32,7 @@ let switchToRight = function(link){
         easing: ["ease-in"],
     }, .3);
 
-    document.getElementsByClassName("head")[0].addEventListener('animationend', () => {
-        window.location.href = "https://roromaniv.github.io" + link;
-    });
+    window.location.href = "https://roromaniv.github.io" + link;
 
 }
 
