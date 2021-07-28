@@ -215,7 +215,7 @@ input:focus-visible, textarea:focus-visible{
 
 #switcher{
     height: 40px;
-    width: fit-content;
+    width: 80px;
     right: 0;
     bottom: 8px;
     position: absolute;
