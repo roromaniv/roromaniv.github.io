@@ -204,7 +204,7 @@ input:focus-visible, textarea:focus-visible{
     place-content: center;
 }
 
-#reviews > div > p + div{
+#reviews > div > div + div{
     border-left: 10px solid #F2F3F5;
     border-top: 10px solid #F2F3F5;
     border-bottom: 10px solid white;
