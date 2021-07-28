@@ -221,9 +221,10 @@ input:focus-visible, textarea:focus-visible{
     position: absolute;
 }
 
-#switcher a{
+#switcher div{
     width: 40px;
     display: flex;
     place-content: center;
     align-items: center;
+    cursor: pointer;
 }
