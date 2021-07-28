@@ -53,7 +53,7 @@ let nextSlide = function(event){
 
 let prevSlide = function(event){
     let n;
-    let frames = Array.from(event.parentElement.getElementsByClassName("frame"));
+    let frames = Array.from(event.parentElement.parentElement.getElementsByClassName("frame"));
     for (let i = 0; i < frames.length; i++) {
         if(frames[i].classList.contains("show"))
         {
