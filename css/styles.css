@@ -217,7 +217,7 @@ input:focus-visible, textarea:focus-visible{
     height: 40px;
     width: fit-content;
     right: 0;
-    bottom: 4px;
+    bottom: 8px;
     position: absolute;
 }
 
