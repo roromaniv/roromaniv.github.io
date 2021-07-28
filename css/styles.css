@@ -228,3 +228,9 @@ input:focus-visible, textarea:focus-visible{
     align-items: center;
     cursor: pointer;
 }
+
+#reviews > div > p:first-child{
+    height: 136px;
+    vertical-align: middle;
+    display: table-cell;
+}
