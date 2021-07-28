@@ -192,6 +192,7 @@ input:focus-visible, textarea:focus-visible{
 
 #reviews{
     width: 360px;
+    position: relative;
 }
 
 #reviews > div > div > div{
@@ -215,6 +216,10 @@ input:focus-visible, textarea:focus-visible{
 
 #switcher{
     height: 40px;
+    width: fit-content;
+    right: 0;
+    bottom: 4px;
+    position: absolute;
 }
 
 #switcher a{
