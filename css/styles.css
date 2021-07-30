@@ -244,3 +244,11 @@ input:focus-visible, textarea:focus-visible{
     filter: brightness(1.02);
     transition: all .2s linear;
 }
+
+#tools{
+    border-spacing: 0px;
+}
+
+#tools td{
+    padding-top: 10px;
+}
