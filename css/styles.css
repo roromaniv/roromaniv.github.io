@@ -260,7 +260,6 @@ input:focus-visible, textarea:focus-visible{
     margin-top: 10px;
     border-radius: 2px;
     filter: saturate(0);
-    cursor: pointer;
 }
 
 #tools a:hover{
