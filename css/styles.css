@@ -251,7 +251,7 @@ input:focus-visible, textarea:focus-visible{
 }
 
 #tools td{
-    padding-top: 10px;
+    padding-top: 16px;
 }
 
 #tools a{
@@ -273,4 +273,8 @@ input:focus-visible, textarea:focus-visible{
     width: 14px;
     height: 14px;
     margin-right: 8px;
+}
+
+#tools > tr > td:first-child{
+    width: 160px;
 }
