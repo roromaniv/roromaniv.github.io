@@ -256,4 +256,10 @@ input:focus-visible, textarea:focus-visible{
 
 #tools a{
     padding: 4px 8px;
+    color: #3E4A55;
+}
+
+#tools a img{
+    width: 16px;
+    height: 16px;
 }
