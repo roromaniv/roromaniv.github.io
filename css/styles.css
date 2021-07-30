@@ -251,22 +251,24 @@ input:focus-visible, textarea:focus-visible{
 }
 
 #tools td{
-    padding-top: 16px;
+    padding-top: 8px;
 }
 
 #tools a{
+    display: inline-block;
     padding: 4px 12px;
     color: #3E4A55;
     margin-top: 10px;
     border-radius: 2px;
     filter: saturate(0);
-    transition: all linear 1s;
+    transition: all ease-in-out 1s;
 }
 
 #tools a:hover{
     filter: saturate(1);
     opacity: 100%;
-    transition: all linear .2s;
+    transform: scale(1.1);
+    transition: all ease-in-out .2s;
 }
 
 #tools a img{
@@ -275,6 +277,6 @@ input:focus-visible, textarea:focus-visible{
     margin-right: 8px;
 }
 
-#tools > tr > td:first-child{
+#tools tr > td:first-child{
     width: 160px;
 }
