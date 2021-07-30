@@ -255,12 +255,18 @@ input:focus-visible, textarea:focus-visible{
 }
 
 #tools a{
-    padding: 4px 8px;
+    padding: 4px 12px;
     color: #3E4A55;
     margin-top: 10px;
+    border-radius: 2px;
+    filter: saturate(0);
+}
+#tools a{
+    filter: saturate(1);
 }
 
 #tools a img{
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
 }
