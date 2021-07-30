@@ -257,6 +257,7 @@ input:focus-visible, textarea:focus-visible{
 #tools a{
     padding: 4px 8px;
     color: #3E4A55;
+    margin-top: 10px;
 }
 
 #tools a img{
