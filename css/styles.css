@@ -260,15 +260,14 @@ input:focus-visible, textarea:focus-visible{
     color: #3E4A55;
     margin-top: 10px;
     border-radius: 2px;
-    filter: saturate(0);
-    transition: all ease-in-out .3s;
+    filter: saturate(.5);
+    transition: all ease-in-out .2s;
 }
 
 #tools a:hover{
     filter: saturate(1);
     opacity: 100%;
-    transform: scale(1.1);
-    transition: all ease-in-out .2s;
+    transform: scale(1.05);
 }
 
 #tools a img{
