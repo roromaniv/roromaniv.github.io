@@ -261,8 +261,11 @@ input:focus-visible, textarea:focus-visible{
     border-radius: 2px;
     filter: saturate(0);
 }
-#tools a{
+
+#tools a:hover{
     filter: saturate(1);
+    opacity: 100%;
+    transition: all linear .2s;
 }
 
 #tools a img{
