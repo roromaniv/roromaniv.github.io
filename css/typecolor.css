@@ -100,11 +100,18 @@ h1+p, h2+p, h3+p {
     color: #16222E;
 }
 
-.tile.dark:hover, .tile.black:hover{
-    filter: opacity(.97);
-    transition: all .2s linear;
+.op8{
+    opacity: .8;
 }
-.tile.light:hover, .tile.medium:hover{
-    filter: brightness(1.02);
-    transition: all .2s linear;
+
+.op6{
+    opacity: .6;
+}
+
+.op4{
+    opacity: .4;
+}
+
+.op2{
+    opacity: .2;
 }

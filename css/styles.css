@@ -234,3 +234,13 @@ input:focus-visible, textarea:focus-visible{
     vertical-align: middle;
     display: table-cell;
 }
+
+.tile.dark:hover, .tile.black:hover{
+    filter: opacity(.97);
+    transition: all .2s linear;
+}
+
+.tile.light:hover, .tile.medium:hover{
+    filter: brightness(1.02);
+    transition: all .2s linear;
+}
