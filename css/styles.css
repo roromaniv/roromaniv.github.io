@@ -251,14 +251,14 @@ input:focus-visible, textarea:focus-visible{
 }
 
 #tools td{
-    padding-top: 8px;
+    padding-top: 12px;
+    display: inline-block;
 }
 
 #tools a{
     display: inline-block;
     padding: 4px 12px;
     color: #3E4A55;
-    margin-top: 10px;
     border-radius: 2px;
     transition: all ease-in-out .2s;
 }
