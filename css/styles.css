@@ -253,3 +253,7 @@ input:focus-visible, textarea:focus-visible{
 #tools td{
     padding-top: 10px;
 }
+
+#tools a{
+    padding: 4px 8px;
+}
