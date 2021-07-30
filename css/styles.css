@@ -260,6 +260,7 @@ input:focus-visible, textarea:focus-visible{
     margin-top: 10px;
     border-radius: 2px;
     filter: saturate(0);
+    transition: all linear .2s;
 }
 
 #tools a:hover{
