@@ -263,7 +263,7 @@ input:focus-visible, textarea:focus-visible{
     transition: all ease-in-out .2s;
 }
 
-#challenges a{
+#challenges a, #experience a{
     display: inline-block;
     padding: 4px 8px;
     color: #0073FF;
@@ -274,7 +274,7 @@ input:focus-visible, textarea:focus-visible{
     transition: all ease-in-out .2s;
 }
 
-#tools a:hover, #challenges a:hover{
+#tools a:hover{
     opacity: 100%;
     transform: scale(1.05);
 }
