@@ -31,7 +31,7 @@ let values = [  "We need an MVP for X and Y. Where do we begin?",
 
 let typeIt = function(elem, val){
     for (let i = 0; i < val.length; i++) {
-        setTimeout(function(){elem.value+=val[i];}, (Math.random(100) + 100));
+        setTimeout(function(){elem.value+=val[i];}, (Math.random(1000) + 1000));
     }
 }
 
