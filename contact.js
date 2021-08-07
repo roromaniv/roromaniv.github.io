@@ -30,9 +30,12 @@ let values = [  "We need an MVP for X and Y. Where do we begin?",
                     "Our developers aren't devoted. How do we aspire them?"];
 
 let typeIt = function(elem, val){
-    for (let i = 0; i < val.length; i++) {
-        setTimeout(function(){elem.value+=val[i];}, (Math.random(1000) + 1000));
-    }
+    let i = 0;
+    setInterval(function(){
+        elem.value+=val[i]; 
+        i++; 
+        if(i>=val.length){return;}
+    }, (Math.random(1000) + 1000));
 }
 
 let eraseIt = function(elem){
