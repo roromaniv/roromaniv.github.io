@@ -35,7 +35,7 @@ let typeIt = function(elem, val){
         elem.value+=val[i]; 
         i++; 
         if(i>=val.length){return;}
-    }, (Math.random(1000) + 1000));
+    }, (Math.random(50) + 50));
 }
 
 let eraseIt = function(elem){
