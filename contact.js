@@ -41,6 +41,7 @@ let typeIt = function(elem, val){
 let eraseIt = function(elem){
     setInterval(function(){
         if(elem.value.length==0){return;}
-        elem.value=elem.value.splice(elem.value.length-1,0,""); 
+        let prop = elem.value;
+        elem.value=prop.splice(prop.length-1,0,""); 
     }, 30);
 }
