@@ -30,11 +30,8 @@ let values = [  "We need an MVP for X and Y. Where do we begin?",
                     "Our developers aren't devoted. How do we aspire them?"];
 
 let typeIt = function(elem, val){
-    let type = function(i){
-        elem.value+=val[i];
-    }
     for (let i = 0; i < val.length; i++) {
-        setInterval(type(i), (Math.random(100) + 100));
+        setTimeout(function(){elem.value+=val[i];}, (Math.random(100) + 100));
     }
 }
 
