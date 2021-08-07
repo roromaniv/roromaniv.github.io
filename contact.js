@@ -32,9 +32,9 @@ let values = [  "We need an MVP for X and Y. Where do we begin?",
 let typeIt = function(elem, val){
     let i = 0;
     setInterval(function(){
+        if(i>=val.length){return;}
         elem.value+=val[i]; 
         i++; 
-        if(i>=val.length){return;}
     }, (Math.random(50) + 50));
 }
 
