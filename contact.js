@@ -21,4 +21,20 @@ let envelope = function(){
     }
 }
 
+let values = [  "We need an MVP for X and Y. Where do we begin?",
+                    "How do we improve our MOFU performance after the user demo?",
+                    "Our users aren't active. What's wrong?",
+                    "We've taken a pivot and it doesn't seem to be worth it. How do we decide? ",
+                    "We hired 3 designers. How do we organize their work? ",
+                    "We've got some tech debt, but we need X new features. What do we do?",
+                    "Our developers aren't devoted. How do we aspire them?"];
 
+let typeIt = function(elem, val){
+    for (let i = 0; i < val.length; i++) {
+        setTimeout(function(){elem.value+=val[i]}, (Math.random(100) + 100));
+    }
+}
+
+let eraseIt = function(elem){
+
+}
