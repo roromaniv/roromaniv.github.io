@@ -1,5 +1,7 @@
-$('.prevnext').tilt({
-    glare: true,
-    maxGlare: 0.5,
-    scale: 0.9
-})
+$('body').on('hover', function(){
+    $('.prevnext').tilt({
+        glare: true,
+        maxGlare: 0.5,
+        scale: 0.9
+    })
+});
