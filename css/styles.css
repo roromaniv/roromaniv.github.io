@@ -84,20 +84,17 @@
     justify-content: flex-end;
     font-size: 24px;
     font-weight: bold;
-    transform-style: preserve-3d;
 }
 
 .project div {
     width: fit-content;
     padding: 32px 64px 40px 40px;
     backdrop-filter: blur(30px);
-    transform: translateZ(50px);
 }
 
 .project span {
     font-size: 13px;
     font-weight: 500;
-    transform: translateZ(50px);
 }
 
 #contact {
