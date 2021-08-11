@@ -289,7 +289,15 @@ input:focus-visible, textarea:focus-visible{
     width: 160px;
 }
 
-#toright{
+#toRight{
+    transform: translate(-100%, 0);
+    transition: all .5s ease-in-out;
+}
+#toLeft{
+    transform: translate(100%, 0);
+    transition: all .5s ease-in-out;
+}
+#toNormal{
     transform: translate(-100%, 0);
     transition: all .5s ease-in-out;
 }
