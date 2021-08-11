@@ -288,3 +288,12 @@ input:focus-visible, textarea:focus-visible{
 #tools tr > td:first-child{
     width: 160px;
 }
+
+@keyframes rotate{
+    from{ transform: rotateY(0deg) skewY(0deg); }
+    to{ transform: rotateY(90deg) skewY(15deg); }
+}
+
+#rotate{
+    animation: ease-in-out rotate .5s;
+}
