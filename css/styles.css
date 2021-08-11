@@ -288,3 +288,8 @@ input:focus-visible, textarea:focus-visible{
 #tools tr > td:first-child{
     width: 160px;
 }
+
+#toright{
+    transform: translate(-100%, 0);
+    transition: all .5s ease-in-out;
+}
