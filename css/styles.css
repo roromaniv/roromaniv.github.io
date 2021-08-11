@@ -290,8 +290,8 @@ input:focus-visible, textarea:focus-visible{
 }
 
 @keyframes rotate{
-    from{ transform: rotateY(0deg) skewY(0deg); }
-    to{ transform: rotateY(90deg) skewY(15deg); }
+    from{ transform: rotateY(0deg) skewY(0deg) translate(0,0); }
+    to{ transform: rotateY(90deg) skewY(15deg) translate(-100vw,0); }
 }
 
 #rotate{
