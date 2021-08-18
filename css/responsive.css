@@ -160,6 +160,7 @@ l-left
     margin-top: 2.5rem;
 }
 
+
 .mbs{
     margin-bottom: .5rem;
 }
@@ -388,5 +389,11 @@ l-left
     }
     .v-5-6{
         max-height: unset;
+    }
+    #reviews{
+        width: 100%;
+    }
+    .contacts{
+        width: 100%;
     }
 }
