@@ -397,4 +397,7 @@ l-left
         width: 100%;
         background: none !important;
     }
+    input, textarea{
+        width: 100%;
+    }
 }
