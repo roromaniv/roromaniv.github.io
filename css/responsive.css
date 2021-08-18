@@ -395,5 +395,6 @@ l-left
     }
     .contacts{
         width: 100%;
+        background: none !important;
     }
 }
