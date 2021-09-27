@@ -391,7 +391,7 @@ l-left
         max-height: unset;
     }
     #reviews{
-        width: 100%;
+        width: 100% !important;
     }
     .contacts{
         width: 100%;
