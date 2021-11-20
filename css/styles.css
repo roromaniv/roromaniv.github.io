@@ -290,3 +290,9 @@ input:focus-visible, textarea:focus-visible{
 #tools tr > td:first-child{
     width: 160px;
 }
+
+.listitem{
+    width: 32px;
+    height: 32px;
+    margin-right: 1.5rem;
+}
