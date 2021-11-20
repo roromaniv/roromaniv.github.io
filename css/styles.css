@@ -292,6 +292,7 @@ input:focus-visible, textarea:focus-visible{
 }
 
 .listitem{
+    display: flex;
     align-items: center;
     margin: 12px 0px;
 }
