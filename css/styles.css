@@ -293,6 +293,7 @@ input:focus-visible, textarea:focus-visible{
 
 .listitem{
     align-items: center;
+    margin: 12px 0px;
 }
 
 .listitem img{
