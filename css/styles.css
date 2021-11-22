@@ -134,6 +134,7 @@
 
 .previewparent{
     overflow: hidden;
+    background-color: #333344;
 }
 
 .preview:hover{
