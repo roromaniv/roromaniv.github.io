@@ -11,17 +11,27 @@
     "images": [{
         "name": "Image title",
         "description": "A short description",
-        "link": "/projects/xelonhq/Rectangle22.png"
+        "link": "/projects/xelonhq/preview.png"
     },
     {
         "name": "Title 2",
         "description": "Description 2",
-        "link": "/projects/xelonhq/Rectangle24.png"
+        "link": "/projects/xelonhq/1.png"
     },
     {
         "name": "Title",
         "description": "",
-        "link": "/projects/xelonhq/Group6.png"
+        "link": "/projects/xelonhq/2.png"
+    },
+    {
+        "name": "Title",
+        "description": "",
+        "link": "/projects/xelonhq/3.png"
+    },
+    {
+        "name": "Title",
+        "description": "",
+        "link": "/projects/xelonhq/4.png"
     }
     ]
 }
