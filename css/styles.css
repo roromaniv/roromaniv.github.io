@@ -310,5 +310,5 @@ input:focus-visible, textarea:focus-visible{
     padding: 1rem 1.5rem;
     align-self: baseline;
     color: #333344;
-    margin: 0 1.5rem;
+    margin: 2rem 0;
 }
