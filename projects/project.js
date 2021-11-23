@@ -31,7 +31,7 @@ let projectInit = function(projectIndex){
             for (let i = 0; i < content["facts"].length; i++) {
                 document.getElementById("facts").innerHTML += '<div class="fact column"><h3 class="mbs t-black">{{VALUE}}</h3><p>{{FACT}}</p></div>'.replace("{{FACT}}",content.facts[i]["fact"]).replace("{{VALUE}}",content.facts[i]["value"]);
             }
-            document.getElementById("primary").attributes.href = content.href;
+            document.getElementById("primary").attributes.href = content.link;
             document.getElementById("primary").innerText = content.buttonTitle;
 
             
