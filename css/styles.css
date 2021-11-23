@@ -305,7 +305,10 @@ input:focus-visible, textarea:focus-visible{
 }
 
 .btn-primary{
-    background-color: #f2f2f2;
+    background-color: #f2f2f5;
     font-weight: bold;
-    padding: 1.5rem 1rem
+    padding: 1rem 1.5rem;
+    align-self: baseline;
+    color: #333344;
+    margin: 0 1.5rem;
 }
