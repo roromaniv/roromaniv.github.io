@@ -308,5 +308,5 @@ input:focus-visible, textarea:focus-visible{
     font-weight: bold;
     padding: 1rem 1.5rem;
     align-self: baseline;
-    margin: 2rem 0;
+    margin: 1rem 0 2rem 0;
 }
