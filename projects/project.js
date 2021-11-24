@@ -32,7 +32,7 @@ let projectInit = function(projectIndex){
                 document.getElementById("facts").innerHTML += '<div class="fact column"><h3 class="mbs t-black">{{VALUE}}</h3><p>{{FACT}}</p></div>'.replace("{{FACT}}",content.facts[i]["fact"]).replace("{{VALUE}}",content.facts[i]["value"]);
             }
             document.getElementsByClassName("btn-primary")[0].href = content.link;
-            //document.getElementsByClassName("btn-primary")[0].innerText += content.buttonTitle;
+            document.getElementsByClassName("btn-primary")[0].innerText += content.buttonTitle;
 
             
             //PREVIEWS
