@@ -384,6 +384,9 @@ l-left
     #gallery .frame .img{
         height: 60% !important;
     }
+    .frame h2{
+        margin-top: 2rem !important;
+    }
     #gallery #close{
         height: 72px !important;
         width: 72px !important;
