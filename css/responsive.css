@@ -368,7 +368,7 @@ l-left
         width: calc(100% - 80px);
     }
     #gallery .control{
-        width: 72px !important;
+        width: 50% !important;
         height: 72px !important;
         bottom: 0;
     }
@@ -383,7 +383,7 @@ l-left
     }
     #gallery #close{
         height: 72px !important;
-        width: 50% !important;
+        width: 72px !important;
     }
     .home .head, .projectpage .head {
         flex-direction: column-reverse !important;
