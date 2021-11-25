@@ -369,6 +369,8 @@ l-left
     }
     #gallery .control{
         width: 72px !important;
+        height: 72px !important;
+        bottom: 0;
     }
     #gallery #close{
         height: 72px !important;
