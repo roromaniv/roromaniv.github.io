@@ -19,7 +19,7 @@ let envelope = function(){
         document.getElementById("formcontainer").classList.remove("showenvelope");
         document.getElementById("contact").style.bottom="0px";
     }
-}
+};
 
 //Initiate contact
 var form_master=document.createElement('div');
