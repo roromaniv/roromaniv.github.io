@@ -20,3 +20,6 @@ let triggerMenu = function (){
         menuClass.add("hide");
     }
 }
+
+//Initiate contact
+document.getElementById("contact").addEventListener("click", envelope());
