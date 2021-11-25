@@ -22,7 +22,7 @@ let projectInit = function(projectIndex){
         json.setRequestHeader("Cache-Control", "no-cache");
         json.onload = function() {
             let content = JSON.parse(json.responseText);
-            document.body.innerHTML = DOM;
+            document.body.innerHTML += DOM;
 
             //TEXT AND BUTTON
             document.getElementById("title").innerHTML = content.title;
