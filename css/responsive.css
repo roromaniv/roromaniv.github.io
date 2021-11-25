@@ -373,9 +373,9 @@ l-left
         bottom: 0;
     }
     #gallery .frame{
-        width: 90%;
-        left: 5%;
-        top:10%
+        width: 90% !important;
+        left: 5% !important; 
+        top: 10% !important;
     }
     .frame h2, .frame p{
         width: 80%;
