@@ -372,6 +372,10 @@ l-left
         height: 72px !important;
         bottom: 0;
     }
+    #gallery .frame{
+        width: 90%;
+        left: 5%;
+    }
     #gallery #close{
         height: 72px !important;
         width: 72px !important;
