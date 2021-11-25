@@ -375,10 +375,15 @@ l-left
     #gallery .frame{
         width: 90%;
         left: 5%;
+        top:10%
+    }
+    .frame h2, .frame p{
+        width: 80%;
+        margin-left: 10%;
     }
     #gallery #close{
         height: 72px !important;
-        width: 72px !important;
+        width: 50% !important;
     }
     .home .head, .projectpage .head {
         flex-direction: column-reverse !important;
