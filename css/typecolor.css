@@ -7,6 +7,10 @@ body, button, input {
     line-height: 24px;
 }
 
+button{
+    padding: 14px 20px 16px 20px;
+}
+
 a{
     text-decoration: none;
     color: #0073FF;
