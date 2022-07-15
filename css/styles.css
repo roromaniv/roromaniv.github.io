@@ -318,3 +318,7 @@ input:focus-visible, textarea:focus-visible{
     align-items: center;
     line-height: 15px;
 }
+
+.grad{
+    background: linear-gradient(45deg, #F2F3F5 -2%, rgba(242, 243, 245, 0) 45%);
+}
