@@ -29,29 +29,3 @@ document.getElementById("contact").addEventListener("click", envelope());
 envelope();
 
 
-let values = [  "We need an MVP for X and Y. Where do we begin?",
-                    "How do we improve our MOFU performance after the user demo?",
-                    "Our users aren't active. What's wrong?",
-                    "We've taken a pivot and it doesn't seem to be worth it. How do we decide? ",
-                    "We hired 3 designers. How do we organize their work? ",
-                    "We've got some tech debt, but we need X new features. What do we do?",
-                    "Our developers aren't devoted. How do we aspire them?"];
-
-let typeIt = function(elem, val){
-    let i = 0;
-    setInterval(function(){
-        if(i>=val.length){return;}
-        elem.value+=val[i]; 
-        i++; 
-    }, (Math.random(50) + 50));
-}
-
-let eraseIt = function(elem){
-    setInterval(function(){
-        if(elem.value.length==0){return;}
-        let prop = elem.value;
-        elem.value=prop.splice(prop.length-1,0,""); 
-    }, 30);
-}
-
-
