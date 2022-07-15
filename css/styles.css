@@ -166,7 +166,7 @@ body{
     border-left: 1px solid #F2F3F5;
 }
 
-input:not(input[type=checkbox]), textarea{
+input:not(input[type=checkbox],input[type=submit]), textarea{
     font-size: 16px;
     font-family: inherit;
     border: none;
