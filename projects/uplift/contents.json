@@ -1,39 +1,43 @@
 {
-    "title": "Uplift 🌿",
-    "paragraph": "<a href='https://apps.apple.com/us/app/uplift-depression-anxiety/id1467988544#?platform=iphone'  target='_blank'><b>UpLift - Depression & Anxiety</b></a> is an app created to help those struggling with depression and mental health. Guided sessions, journalling advice, computerized cognitive-behavioral therapy and much more. In a study, users achieved a <b>52% reduction in depression symptoms</b> on average. The app has received hundreds of positive reviews from people all across the world, including doctors and mental health experts.",
-    "link": "https://apps.apple.com/us/app/id1467988544#?platform=iphone",
-    "buttonTitle": "View in AppStore",
-    "facts": [{
-        "fact": "PROJECT HOURS",
-        "value": "56"
-    },{
-        "fact": "COUNTRY",
-        "value": "United States 🇺🇸"
-    }],
-    "images": [{
-        "name": "Image title",
-        "description": "A short description",
-        "link": "/projects/uplift/uplift.jpg"
+  "title": "Uplift 🌿",
+  "paragraph": "<a href='https://apps.apple.com/us/app/uplift-depression-anxiety/id1467988544#?platform=iphone'  target='_blank'><b>UpLift - Depression & Anxiety</b></a> is an app created to help those struggling with depression and mental health. Guided sessions, journalling advice, computerized cognitive-behavioral therapy and much more. In a study, users achieved a <b>52% reduction in depression symptoms</b> on average. The app has received hundreds of positive reviews from people all across the world, including doctors and mental health experts.",
+  "link": "https://apps.apple.com/us/app/id1467988544#?platform=iphone",
+  "buttonTitle": "View in AppStore",
+  "facts": [
+    {
+      "fact": "project hours",
+      "value": "56"
     },
     {
-        "name": "Title 2",
-        "description": "Description 2",
-        "link": "/projects/uplift/onboarding.png"
-    },
-    {
-        "name": "Title",
-        "description": "",
-        "link": "/projects/uplift/home.png"
-    },
-    {
-        "name": "Title",
-        "description": "",
-        "link": "/projects/uplift/shop.png"
-    },
-    {
-        "name": "Title",
-        "description": "",
-        "link": "/projects/uplift/illustrations.png"
+      "fact": "country",
+      "value": "United States 🇺🇸"
     }
-    ]
+  ],
+  "images": [
+    {
+      "name": "Image title",
+      "description": "A short description",
+      "link": "/projects/uplift/uplift.jpg"
+    },
+    {
+      "name": "Title 2",
+      "description": "Description 2",
+      "link": "/projects/uplift/onboarding.png"
+    },
+    {
+      "name": "Title",
+      "description": "",
+      "link": "/projects/uplift/home.png"
+    },
+    {
+      "name": "Title",
+      "description": "",
+      "link": "/projects/uplift/shop.png"
+    },
+    {
+      "name": "Title",
+      "description": "",
+      "link": "/projects/uplift/illustrations.png"
+    }
+  ]
 }
