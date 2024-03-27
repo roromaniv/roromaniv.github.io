@@ -1,9 +1,9 @@
 {
   "particles": {
     "density": 200,
-    "color": "#fff",
+    //"color": "#fff",
     "size": {
-      "value": 1,
+      "value": 2,
       "random": false
     },
     "movement": {
@@ -36,7 +36,7 @@
     "size": {
       "canvas_pct": 60,
       "min_px": 150,
-      "max_px": 800
+      "max_px": 4000
     }
   },
   "interactions": {
