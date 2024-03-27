@@ -30,8 +30,8 @@
   },
   "image": {
     "src": {
-      "path": "bg.jpg",
-      "is_external": false
+      "path": "https://roromaniv.com/demos/adc-hero/js/bg.jpg",
+      "is_external": true
     },
     "size": {
       "canvas_pct": 60,
