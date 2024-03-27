@@ -1,8 +1,0 @@
-# Mac Finder layout config
-*.DS_Store
-
-# PyCharm project config
-.idea
-
-# VSCode project config
-*.vscode
