@@ -6,10 +6,11 @@ body{
 #hero{
     background: black;
     color: white;
+    text-align: center;
 }
 
 #hero h1{
-    margin-top: 88px;
+    padding-top: 88px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -34,8 +35,9 @@ body{
     z-index: -100;
 }
 
-#hero .content{
-    z-index: 500;
+#hero canvas{
     position: absolute;
-    text-align: center;
+    top: 0;
+    left: 0;
 }
+
