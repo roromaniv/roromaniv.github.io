@@ -19,7 +19,7 @@
                 <img src="images/screenshot.png" style="margin-top: 40px; z-index: 100; position: relative;" width="600px">
 
                 <!--Next particle-->
-                <img src="images/bg.jpg" data-particle-gap="4" data-min-width=window.innerWidth data-mouse-force="-30" class="next-particle">
+                <img id="map" src="images/bg.jpg" data-particle-gap="4" data-min-width=window.innerWidth data-mouse-force="-30" class="next-particle">
 
                 <!--Particles-->
                 <div id="particles-js"></div>
@@ -30,6 +30,8 @@
             particlesJS.load('particles-js', 'js/particles.json', function() {
                 console.log('callback - particles.js config loaded');
             });
+            document.getElementById("map").setAttribute("data-min-width", window.innerWidth.toString());
+            document.getElementById("map").setAttribute("data-max-width", window.innerWidth.toString());
         </script>
         
     </body>
