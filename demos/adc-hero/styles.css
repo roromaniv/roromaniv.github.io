@@ -4,13 +4,12 @@ body{
     font-family: Inter;
 }
 #hero{
-    place-content: center;
-    display: flex;
     background: black;
     color: white;
 }
 
 #hero h1{
+    margin-top: 88px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
