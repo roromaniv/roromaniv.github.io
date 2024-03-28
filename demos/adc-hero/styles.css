@@ -32,6 +32,7 @@ body{
     width: 100%;
     min-height: 640px;
     max-height: 1080;
+    z-index: -100;
 }
 
 #hero .content{
