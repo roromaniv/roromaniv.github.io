@@ -1,8 +1,11 @@
 body{
     margin: 0 !important;
     padding: 0 !important;
+    font: 'Inter';
 }
 #hero{
+    place-content: center;
+    display: flex;
     background: black;
     color: white;
 }
@@ -16,10 +19,7 @@ body{
 }
 
 #hero .content{
-    padding-top: 96px;
-    text-align: center;
-    height: 720px;
-    width: 100%;
     z-index: 500;
     position: absolute;
+    text-align: center;
 }
