@@ -10,3 +10,7 @@ body{
     min-height: 640px;
     max-height: 1080;
 }
+
+#hero .content{
+    z-index: 500;
+}
