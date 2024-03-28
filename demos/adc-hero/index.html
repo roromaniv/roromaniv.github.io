@@ -12,17 +12,19 @@
         <!--Mock header-->
         <img src="images/header.jpg" style="width: 1920px; position: absolute; left: 50%; margin-left: -960;z-index: 1000;">
         
-        <div id="hero" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-            <h1>The world’s largest human panel based ad intelligence</h1>
-            <h2>Unwrap competitors ads, spend, impressions and dive deep into their strategy.<br>5+Million panelists from 52 countries and counting</h2>
-            <img src="images/screenshot.png" style="margin-top: 40px; z-index: 100; position: relative;" width="600px">
+        <div id="hero">
+           <div class="tilt-container" data-tilt>
+                <h1>The world’s largest human panel based ad intelligence</h1>
+                <h2>Unwrap competitors ads, spend, impressions and dive deep into their strategy.<br>5+Million panelists from 52 countries and counting</h2>
+                <img src="images/screenshot.png" style="margin-top: 40px; z-index: 100; position: relative;" width="600px">
 
-            <!--Next particle-->
-            <img src="images/bg.jpg" data-particle-gap="4" data-min-width=window.innerWidth data-mouse-force="-30" class="next-particle">
+                <!--Next particle-->
+                <img src="images/bg.jpg" data-particle-gap="4" data-min-width=window.innerWidth data-mouse-force="-30" class="next-particle">
 
-            <!--Particles-->
-            <div id="particles-js"></div>
-            <script src="js/particles.min.js"></script>
+                <!--Particles-->
+                <div id="particles-js"></div>
+                <script src="js/particles.min.js"></script>
+            </div>
         </div>
         <script>
             particlesJS.load('particles-js', 'js/particles.json', function() {
