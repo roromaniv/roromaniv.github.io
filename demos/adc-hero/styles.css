@@ -16,6 +16,10 @@ body{
 }
 
 #hero .content{
+    padding-top: 96px;
+    text-align: center;
+    height: 720px;
+    width: 100%;
     z-index: 500;
     position: absolute;
 }
