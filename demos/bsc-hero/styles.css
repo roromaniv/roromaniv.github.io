@@ -13,11 +13,11 @@ body{
 }
 
 #hero h1{
-    padding-top: 20vh;
+    padding-top: 150vh;
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 42px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 120%; 
