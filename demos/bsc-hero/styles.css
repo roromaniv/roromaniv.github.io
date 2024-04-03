@@ -10,6 +10,7 @@ body{
     height: 100%;
     background-image: url("images/bg2.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 #hero h1{
@@ -17,7 +18,7 @@ body{
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 42px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 120%; 
