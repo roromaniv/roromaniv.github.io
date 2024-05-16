@@ -10,14 +10,7 @@
     </head>
     <body>
         
-        <div style='
-            background: black;
-            color: white;
-            text-align: center;
-            height: 800%;
-            background-image: url("images/bg2.jpg");
-            background-size: cover;
-            background-position: center;'>
+        <div id="hero">
 
                 <!--Particles-->
                 <div id="particles-js"></div>
@@ -28,6 +21,8 @@
             particlesJS.load('particles-js', 'js/particles.json', function() {
                 console.log('callback - particles.js config loaded');
             });
+            document.getElementById("map").setAttribute("data-min-width", window.innerWidth.toString());
+            document.getElementById("map").setAttribute("data-max-width", window.innerWidth.toString());
         </script>
         
     </body>
