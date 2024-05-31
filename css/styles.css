@@ -341,3 +341,12 @@ textarea {
 .grad {
   background: linear-gradient(45deg, #f2f3f5 -2%, rgba(242, 243, 245, 0) 45%);
 }
+
+#projectguide {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
