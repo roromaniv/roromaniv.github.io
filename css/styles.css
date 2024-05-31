@@ -353,10 +353,8 @@ textarea {
   display: flex;
   place-items: center;
   gap: 12px;
-}
-
-#projectguide::before {
   animation: reduceopacity 200ms forwards;
+  
 }
 
 @keyframes reduceopacity {
