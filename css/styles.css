@@ -354,5 +354,16 @@ textarea {
 }
 
 #projectguide:hover {
-  display: none;
+  animation: reduceopacity 200ms;
+}
+
+@keyframes reduceopacity {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+    display: none;
+    visibility: hidden;
+  }
 }
