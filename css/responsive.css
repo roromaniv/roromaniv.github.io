@@ -1,51 +1,60 @@
-html{
-    overflow-x: hidden;
+html {
+  overflow-x: hidden;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .fw {
-    width: 100%;
+  width: 100%;
+}
+
+.center {
+  place-content: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
 }
 
 /* FLEX CLASSES */
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .row div {
-    width: 100%;
+  width: 100%;
 }
 
 .column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .g1 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .g2 {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 
 .g3 {
-    flex-grow: 3;
+  flex-grow: 3;
 }
 
 .g4 {
-    flex-grow: 4;
+  flex-grow: 4;
 }
 
 .g5 {
-    flex-grow: 5;
+  flex-grow: 5;
 }
 
 /* SCREEN-RELATIVE SCALING 
@@ -54,40 +63,40 @@ v - vertical
 */
 
 .column.v {
-    justify-content: center;
+  justify-content: center;
 }
 
 .row.v {
-    align-items: center;
+  align-items: center;
 }
 
 .v-1-3 {
-    min-height: 100px;
-    max-height: calc(100vh / 3);
-    height: calc(100vh / 3);
+  min-height: 100px;
+  max-height: calc(100vh / 3);
+  height: calc(100vh / 3);
 }
 
-.v-5-12{
-    min-height: 300px;
-    max-height: calc(100vh * 5 / 12);
-    height: calc(100vh * 5 / 12);
+.v-5-12 {
+  min-height: 300px;
+  max-height: calc(100vh * 5 / 12);
+  height: calc(100vh * 5 / 12);
 }
 
 .v-1-6 {
-    min-height: 100px;
-    max-height: calc(100vh / 6);
-    height: calc(100vh / 6);
+  min-height: 100px;
+  max-height: calc(100vh / 6);
+  height: calc(100vh / 6);
 }
 
-.v-5-6{
-    min-height: 560px;
-    max-height: calc(100vh * 5 / 6);
-    height: calc(100vh * 5 / 6);
+.v-5-6 {
+  min-height: 560px;
+  max-height: calc(100vh * 5 / 6);
+  height: calc(100vh * 5 / 6);
 }
 
 .v-2-3 {
-    min-height: 400px;
-    height: calc(100vh * 2 / 3);
+  min-height: 400px;
+  height: calc(100vh * 2 / 3);
 }
 
 /* PADDINGS & MARGINS
@@ -101,207 +110,212 @@ l-left
 
 */
 
-.p2{
-    padding: 20px;
+.p2 {
+  padding: 20px;
 }
 
-.pt2{
-    padding-top: 20px;
+.pt2 {
+  padding-top: 20px;
 }
 
 .p6 {
-    padding: 60px;
+  padding: 60px;
 }
 
 .pl6 {
-    padding-left: 60px;
+  padding-left: 60px;
 }
 
 .pr6 {
-    padding-right: 60px;
+  padding-right: 60px;
 }
 
 .pl8 {
-    padding-left: 80px;
+  padding-left: 80px;
 }
 
 .pr8 {
-    padding-right: 80px;
+  padding-right: 80px;
 }
 
 .pt8 {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .p8 {
-    padding: 80px;
+  padding: 80px;
 }
 
 .cpl8 {
-    margin-left: -80px !important;
-    width: calc(100% + 80px) !important;
+  margin-left: -80px !important;
+  width: calc(100% + 80px) !important;
 }
 
 .cp8 {
-    margin: -80px;
-    width: calc(100% + 160px) !important;
-    height: calc(100% + 160px) !important;
+  margin: -80px;
+  width: calc(100% + 160px) !important;
+  height: calc(100% + 160px) !important;
 }
 
-.m0{
-    margin: 0px;
+.m0 {
+  margin: 0px;
 }
 
-.mlm{
-    margin-left: 1.5rem;
+.mlm {
+  margin-left: 1.5rem;
 }
 
-.mtm{
-    margin-top: 1.5rem;
+.mtm {
+  margin-top: 1.5rem;
 }
 
-.mtl{
-    margin-top: 2.5rem;
+.mtl {
+  margin-top: 2.5rem;
 }
 
-
-.mbs{
-    margin-bottom: .5rem;
+.mbs {
+  margin-bottom: 0.5rem;
 }
 
-.mtm{
-    margin-top: 1.5rem;
+.mtm {
+  margin-top: 1.5rem;
 }
 
 /* WRAPPING LIMITS */
 
 .mw200 {
-    min-width: 200px;
+  min-width: 200px;
 }
 
 .mw400 {
-    min-width: 400px;
+  min-width: 400px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-    .menu a{
-        width: calc(50% - 80px);
-        padding: 0 40px;
-        height: 50%;
-    }
-    .menu{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .menu a p{
-        display: none;
-    }
-    .head .p6, .head .p8{
-        padding: 40px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .menu a {
+    width: calc(50% - 80px);
+    padding: 0 40px;
+    height: 50%;
+  }
+  .menu {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .menu a p {
+    display: none;
+  }
+  .head .p6,
+  .head .p8 {
+    padding: 40px;
+  }
 }
 
-@media screen and (max-width: 320px) and (orientation: portrait){
-
+@media screen and (max-width: 320px) and (orientation: portrait) {
 }
 
-@media screen and (min-width: 320px) and (orientation: portrait){
-    .head{
-        flex-direction: column !important;
-        height: fit-content;
-    }
-    .head .p8, .head .p6{
-        padding: 40px;
-    }
-    .pm .head > div:last-child{
-        width: calc(100% - 80px);
-        background: none !important;
-        border-top: 1px solid #F2F3F5;
-    }
-    #tabs a{
-        padding-left: .5rem !important;
-        padding-right: .5rem !important;
-    }
-    
-    .cp8{
-        margin: -40px;
-    }
-    .projects{
-        width: 100% !important;
-    }
-    .project{
-        width: 50%;
-    }
-    .project div{
-        width: 100% !important;
-        padding: 20px 20px 24px 24px !important;
-        zoom: .9;
-    }
-    .mw200{
-        min-width: 160px;
-    }
-    .prevnext, .menu{
-        display: none;
-    }
-    .btrigger{
-        display: block !important;
-    }
-    .head > .p8:first-child, .head > .p6:first-child {
-        width: calc(100% - 80px);
-    }
-    #gallery .control{
-        width: 50% !important;
-        height: 72px !important;
-        bottom: 0;
-    }
-    #gallery .frame{
-        width: 90% !important;
-        left: 5% !important; 
-        top: 10% !important;
-    }
-    .frame h2, .frame p{
-        width: 80% !important;
-        margin-left: 10% !important;
-    }
-    #gallery .frame .img{
-        height: 60% !important;
-    }
-    .frame h2{
-        margin-top: 2rem !important;
-    }
-    #gallery #close{
-        height: 72px !important;
-        width: 72px !important;
-    }
-    .home .head, .projectpage .head {
-        flex-direction: column-reverse !important;
-    }
-    .home .head div:last-child{
-        height:30vh;
-    }
-    .mw400{
-        min-width: initial;
-    }
-    .projectpage .cp8 .row{
-        height: 40vw !important;
-        width: calc(100% - 160px);
-    }
-    .projectpage .cp8 > .previewparent:first-child{
-        height: 60vw !important;
-        width: 100vw !important;
-    }
-    .v-5-6{
-        max-height: unset;
-    }
-    #reviews{
-        width: calc(100% + 2rem) !important;
-        margin: 1.2rem -1rem;
-    }
-    .contacts{
-        width: 100%;
-        background: none !important;
-    }
-    input, textarea{
-        width: 100%;
-    }
+@media screen and (min-width: 320px) and (orientation: portrait) {
+  .head {
+    flex-direction: column !important;
+    height: fit-content;
+  }
+  .head .p8,
+  .head .p6 {
+    padding: 40px;
+  }
+  .pm .head > div:last-child {
+    width: calc(100% - 80px);
+    background: none !important;
+    border-top: 1px solid #f2f3f5;
+  }
+  #tabs a {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .cp8 {
+    margin: -40px;
+  }
+  .projects {
+    width: 100% !important;
+  }
+  .project {
+    width: 50%;
+  }
+  .project div {
+    width: 100% !important;
+    padding: 20px 20px 24px 24px !important;
+    zoom: 0.9;
+  }
+  .mw200 {
+    min-width: 160px;
+  }
+  .prevnext,
+  .menu {
+    display: none;
+  }
+  .btrigger {
+    display: block !important;
+  }
+  .head > .p8:first-child,
+  .head > .p6:first-child {
+    width: calc(100% - 80px);
+  }
+  #gallery .control {
+    width: 50% !important;
+    height: 72px !important;
+    bottom: 0;
+  }
+  #gallery .frame {
+    width: 90% !important;
+    left: 5% !important;
+    top: 10% !important;
+  }
+  .frame h2,
+  .frame p {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  #gallery .frame .img {
+    height: 60% !important;
+  }
+  .frame h2 {
+    margin-top: 2rem !important;
+  }
+  #gallery #close {
+    height: 72px !important;
+    width: 72px !important;
+  }
+  .home .head,
+  .projectpage .head {
+    flex-direction: column-reverse !important;
+  }
+  .home .head div:last-child {
+    height: 30vh;
+  }
+  .mw400 {
+    min-width: initial;
+  }
+  .projectpage .cp8 .row {
+    height: 40vw !important;
+    width: calc(100% - 160px);
+  }
+  .projectpage .cp8 > .previewparent:first-child {
+    height: 60vw !important;
+    width: 100vw !important;
+  }
+  .v-5-6 {
+    max-height: unset;
+  }
+  #reviews {
+    width: calc(100% + 2rem) !important;
+    margin: 1.2rem -1rem;
+  }
+  .contacts {
+    width: 100%;
+    background: none !important;
+  }
+  input,
+  textarea {
+    width: 100%;
+  }
 }
