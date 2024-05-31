@@ -343,8 +343,9 @@ textarea {
 }
 
 .projects::before {
-  content: 'Scroll projects <img src="images/advance.svg" width="24px" />';
+  content: "Scroll projects →";
   background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
   position: fixed;
   height: inherit;
   width: 100%;
