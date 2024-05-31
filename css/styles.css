@@ -353,7 +353,6 @@ textarea {
   display: flex;
   place-items: center;
   gap: 12px;
-  pointer-events: ;
 }
 
 #projectguide:hover {
