@@ -345,8 +345,14 @@ textarea {
 #projectguide {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
-  height: 100%;
+  height: inherit;
   z-index: 1;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  place-content: center;
+  text-align: center;
+}
+
+#projectguide:hover {
+  display: none;
 }

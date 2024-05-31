@@ -12,15 +12,6 @@ body {
   width: 100%;
 }
 
-.center {
-  place-content: center;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  align-self: center;
-}
-
 /* FLEX CLASSES */
 
 .row {
