@@ -267,7 +267,7 @@ textarea {
 
 .tile.light:hover,
 .tile.medium:hover {
-  filter: brightness(1.02);
+  filter: brightness(0.95);
   transition: all 0.2s linear;
 }
 
@@ -354,7 +354,7 @@ textarea {
 }
 
 #projectguide:hover {
-  animation: reduceopacity 200ms;
+  animation: reduceopacity 200ms forwards;
 }
 
 @keyframes reduceopacity {
