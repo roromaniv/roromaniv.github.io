@@ -353,8 +353,11 @@ textarea {
   display: flex;
   place-items: center;
   gap: 12px;
+}
+
+#projectguide:hover {
   animation: reduceopacity 200ms forwards;
-  
+  pointer-events: none;
 }
 
 @keyframes reduceopacity {
