@@ -301,21 +301,6 @@ textarea {
   transition: all ease-in-out 0.2s;
 }
 
-#tools a:hover {
-  opacity: 100%;
-  transform: scale(1.05);
-}
-
-#tools a img {
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-}
-
-#tools tr > td:first-child {
-  width: 160px;
-}
-
 .listitem {
   display: flex;
   align-items: center;
@@ -328,7 +313,7 @@ textarea {
   margin-right: 1.5rem;
 }
 
-.btn-primary {
+.button {
   font-weight: 500;
   padding: 1rem 1.5rem;
   align-self: baseline;
@@ -355,7 +340,8 @@ textarea {
   place-content: center;
   display: flex;
   place-items: center;
-  gap: 12px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .projects:hover::before {
