@@ -365,5 +365,6 @@ textarea {
     opacity: 0%;
     display: none;
     visibility: hidden;
+    z-index: -10;
   }
 }
