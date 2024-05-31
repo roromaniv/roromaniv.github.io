@@ -355,7 +355,7 @@ textarea {
   gap: 12px;
 }
 
-#projectguide:before {
+#projectguide::before {
   animation: reduceopacity 200ms forwards;
 }
 
