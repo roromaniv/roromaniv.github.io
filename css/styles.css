@@ -347,6 +347,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   height: inherit;
+  width: 100%;
   z-index: 1;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -357,10 +358,10 @@ textarea {
 }
 
 .projects:hover::before {
-  animation: reduceOpacity 200ms forwards;
+  animation: reduce-opacity 200ms forwards;
 }
 
-@keyframes reduceOpacity {
+@keyframes reduce-opacity {
   from {
     opacity: 100%;
   }
