@@ -355,7 +355,7 @@ textarea {
   gap: 12px;
 }
 
-#projectguide:focus {
+#projectguide:hover {
   animation: reduceopacity 200ms forwards;
 }
 
