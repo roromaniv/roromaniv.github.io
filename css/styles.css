@@ -342,7 +342,8 @@ textarea {
   background: linear-gradient(45deg, #f2f3f5 -2%, rgba(242, 243, 245, 0) 45%);
 }
 
-#projectguide {
+.projects::before {
+  content: 'Scroll projects <img src="images/advance.svg" width="24px" />';
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   height: inherit;
@@ -355,12 +356,11 @@ textarea {
   gap: 12px;
 }
 
-#projectguide:hover {
-  animation: reduceopacity 200ms forwards;
-  pointer-events: none;
+.projects:hover::before {
+  animation: reduceOpacity 200ms forwards;
 }
 
-@keyframes reduceopacity {
+@keyframes reduceOpacity {
   from {
     opacity: 100%;
   }
