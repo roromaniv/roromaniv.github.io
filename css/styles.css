@@ -372,9 +372,13 @@ textarea {
 
 @keyframes loader {
   from {
-    border: 2px linear-gradient(90deg, #3e4a55 0%, #ffffff 1%);
+    border-image: 2px linear-gradient(90deg, #3e4a55 0%, #ffffff 1%);
+    border-width: 4px;
+    border-style: solid;
   }
   to {
-    border: 2px linear-gradient(90deg, #3e4a55 100%, #ffffff 100%);
+    border-image: 2px linear-gradient(90deg, #3e4a55 100%, #ffffff 100%);
+    border-width: 4px;
+    border-style: solid;
   }
 }
