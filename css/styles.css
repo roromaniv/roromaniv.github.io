@@ -326,7 +326,7 @@ textarea {
   align-items: center;
   line-height: 16px;
   width: fit-content;
-  border: 24px;
+  border-radius: 24px;
 }
 
 .grad {
