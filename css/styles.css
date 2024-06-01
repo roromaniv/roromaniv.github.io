@@ -364,3 +364,7 @@ textarea {
     visibility: hidden;
   }
 }
+
+#reviews .p2 {
+  border-radius: 12px 12px 12px 0;
+}
