@@ -47,16 +47,8 @@
           </p>
         </div>
         <div class="p6 g1 row column v">
-          <div id="reviews" style="transform: scale(1.1)" class="mtl">
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                setInterval(
-                nextSlide(document.getElementById("switcher").lastChild),
-                10000
-                );
-              }, false);
-              
-            </script>
+          <div id="reviews" style="transform: scale(1.1)" onload="setInterval(nextSlide(document.getElementById('switcher').lastChild),10000);" class="mtl">
+           
             <div class="show frame">
               <p class="p2 light t-dark small m0">
                 Roman has been great as usual! Love his sense of design and
