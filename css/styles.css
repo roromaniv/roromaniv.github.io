@@ -261,7 +261,7 @@ textarea {
 
 .tile.dark:hover,
 .tile.black:hover {
-  filter: opacity(0.97);
+  filter: opacity(0.85);
   transition: all 0.2s linear;
 }
 
@@ -345,7 +345,7 @@ textarea {
 }
 
 .projects:hover::before {
-  animation: reduce-opacity 200ms forwards;
+  animation: reduce-opacity 400ms forwards;
 }
 
 @keyframes reduce-opacity {

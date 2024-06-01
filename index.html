@@ -33,26 +33,29 @@
             infrastructure & mobile apps. Eternal love for boxes and order. Can
             help your business to find the right box.
             <div class="row" style="gap: 8px;">
-            <a class="button black t-white" href="mailto:contact@roromaniv.com"
+            <a class="button black tile t-white" href="mailto:contact@roromaniv.com"
               >Let's talk</a
             >
             <a
-              class="button light t-dark"
-              href="https://www.linkedin.com/in/roromaniv/" style="height: 48px; width: 48px; padding: 0; place-content: center;"
-              ><img src="images/LinkedIn.svg" width="24"></a
+              class="button light tile t-dark"
+              href="https://www.linkedin.com/in/roromaniv/" target=”_blank” style="height: 48px; width: 48px; padding: 0; place-content: center;"
+              ><img src="images/LinkedIn.svg" width="20"></a
             >
-            <a class="button light t-dark" href="https://medium.com/@roromaniv"  style="height: 48px; width: 48px; padding: 0; place-content: center;"
-              ><img src="images/Medium.svg" width="24"></a
+            <a class="button light tile t-dark" href="https://medium.com/@roromaniv" target=”_blank” style="height: 48px; width: 48px; padding: 0; place-content: center;"
+              ><img src="images/Medium.svg" width="20"></a
             ></div>
           </p>
         </div>
         <div class="p6 g1 row column v">
           <div id="reviews" style="transform: scale(1.1)" class="mtl">
             <script>
-              setInterval(
+              document.addEventListener('DOMContentLoaded', function() {
+                setInterval(
                 nextSlide(document.getElementById("switcher").lastChild),
                 10000
-              );
+                );
+              }, false);
+              
             </script>
             <div class="show frame">
               <p class="p2 light t-dark small m0">
@@ -187,6 +190,13 @@
           class="img t-white column fw project mw200"
         >
           <div><span>MOBILE APP</span><br />Uplift</div></a
+        >
+        <a
+          href="/projects/xelonhq/"
+          style="background-image: url('/projects/xelonhq/preview.jpg')"
+          class="img t-black column fw project"
+        >
+          <div><span>B2B PLATFORM</span><br />Xelon HQ</div></a
         >
       </div>
     </div>
