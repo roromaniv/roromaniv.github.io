@@ -229,8 +229,8 @@ textarea {
 }
 
 #reviews > div > div > div {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   background-size: cover;
   background-position: center;
   border-radius: 32px;
@@ -372,13 +372,12 @@ textarea {
 
 @keyframes loader {
   from {
-    border-image: 2px linear-gradient(90deg, #3e4a55 0%, #ffffff 1%);
-    border-width: 4px;
-    border-style: solid;
+    border-image: 2px conic-gradient(#3e4a55 0deg, #ffffff  1deg);
+    border-width: 3px;
+    border-style: inset;
   }
   to {
-    border-image: 2px linear-gradient(90deg, #3e4a55 100%, #ffffff 100%);
-    border-width: 4px;
-    border-style: solid;
-  }
+    border-image: 2px conic-gradient(#3e4a55 359deg, #ffffff 360deg);
+    border-width: 3px;
+    border-style: inset;
 }
