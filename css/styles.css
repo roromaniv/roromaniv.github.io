@@ -224,6 +224,10 @@ textarea {
   position: relative;
 }
 
+#reviews .p2 {
+  border-radius: 12px 12px 12px 0;
+}
+
 #reviews > div > div > div {
   width: 48px;
   height: 48px;
@@ -366,6 +370,11 @@ textarea {
   }
 }
 
-#reviews .p2 {
-  border-radius: 12px 12px 12px 0;
+@keyframes loader {
+  from {
+    border: 2px linear-gradient(90deg, #3e4a55 0%, #ffffff 1%);
+  }
+  to {
+    border: 2px linear-gradient(90deg, #3e4a55 100%, #ffffff 100%);
+  }
 }
