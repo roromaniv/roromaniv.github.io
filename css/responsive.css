@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+.fh {
+  height: 100%;
+}
+
 /* FLEX CLASSES */
 
 .row {
