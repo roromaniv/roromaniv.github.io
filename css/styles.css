@@ -90,10 +90,15 @@
   background-position: center;
 }
 
+.projects {
+  overflow-x: scroll;
+}
+
 .project {
   justify-content: flex-end;
   font-size: 24px;
   font-weight: bold;
+  min-width: 30%;
 }
 
 .project div {
