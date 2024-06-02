@@ -250,6 +250,11 @@ textarea {
   border-radius: 100px;
 }
 
+div:has(.avatar){
+  margin-top: 4px; 
+  align-items: center;
+}
+
 #reviews > div > p + div {
   border-left: 10px solid #f2f3f5;
   border-top: 10px solid #f2f3f5;
