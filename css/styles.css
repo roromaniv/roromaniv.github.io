@@ -237,6 +237,13 @@ textarea {
   place-content: center;
 }
 
+#reviews > div > div > div::before {
+  width: 40px;
+  height: 0px;
+  animation: loader 3s infinite;
+  z-index: 20;
+}
+
 #reviews > div > p + div {
   border-left: 10px solid #f2f3f5;
   border-top: 10px solid #f2f3f5;
@@ -372,12 +379,10 @@ textarea {
 
 @keyframes loader {
   from {
-    border-image: 2px conic-gradient(#3e4a55 0deg, #ffffff  1deg);
-    border-width: 3px;
-    border-style: inset;
+    height: 0px;
   }
   to {
-    border-image: 2px conic-gradient(#3e4a55 359deg, #ffffff 360deg);
-    border-width: 3px;
-    border-style: inset;
+    height: 40px;
+    transform: rotate(360);
+  }
 }
