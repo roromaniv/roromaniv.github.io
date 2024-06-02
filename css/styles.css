@@ -216,7 +216,7 @@ textarea {
   border-radius: 100px;
 }
 
-div:has(.avatar) {
+.frame:has(.avatar) {
   margin-top: 4px;
 }
 
