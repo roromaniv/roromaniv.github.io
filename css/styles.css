@@ -252,7 +252,6 @@ textarea {
 
 div:has(.avatar) {
   margin-top: 4px;
-  align-items: center;
 }
 
 #reviews > div > p + div {
