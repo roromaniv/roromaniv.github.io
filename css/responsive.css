@@ -215,6 +215,9 @@ l-left
   .projects::before {
     display: none;
   }
+  .projects h3 {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 320px) and (orientation: portrait) {
