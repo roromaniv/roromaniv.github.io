@@ -240,7 +240,7 @@ textarea {
 #reviews .avatar::before {
   width: 44px;
   height: 44px;
-  animation: loader 3s infinite;
+  animation: loader 10s infinite;
   z-index: -1;
   position: absolute;
   left: -2px;
@@ -250,8 +250,8 @@ textarea {
   border-radius: 100px;
 }
 
-div:has(.avatar){
-  margin-top: 4px; 
+div:has(.avatar) {
+  margin-top: 4px;
   align-items: center;
 }
 
@@ -374,7 +374,7 @@ div:has(.avatar){
 }
 
 .projects:hover::before {
-  animation: reduce-opacity 600ms forwards;
+  animation: reduce-opacity 0.6s forwards;
 }
 
 @keyframes reduce-opacity {

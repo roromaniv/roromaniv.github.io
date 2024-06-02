@@ -48,7 +48,7 @@
           </p>
         </div>
         <div class="p6 g1 row column v">
-          <div id="reviews" style="transform: scale(1.1)" onload="setInterval(nextSlide(document.getElementById('switcher').lastChild),10000);" class="mtl">
+          <div id="reviews" style="transform: scale(1.1)" class="mtl">
            
             <div class="show frame">
               <p class="p2 light t-dark small m0">
@@ -187,7 +187,7 @@
                   />
                 </svg>
               </div>
-              <div class="light tile" onclick="nextSlide(this)" style="border-radius: 0 24px 24px 0">
+              <div class="light tile" onclick="nextSlide(this)" onload="setInterval(nextSlide(this),10000);" style="border-radius: 0 24px 24px 0">
                 <svg
                   width="8"
                   height="14"
