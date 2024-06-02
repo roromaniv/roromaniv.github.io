@@ -369,7 +369,7 @@ textarea {
 }
 
 .projects:hover::before {
-  animation: reduce-opacity 400ms forwards;
+  animation: reduce-opacity 600ms forwards;
 }
 
 @keyframes reduce-opacity {
