@@ -357,6 +357,6 @@ div:has(.avatar) {
     transform: rotate(-60deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(300deg);
   }
 }

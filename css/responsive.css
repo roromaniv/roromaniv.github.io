@@ -153,31 +153,31 @@ l-left
 }
 
 .m0 {
-  margin: 0px;
+  margin: 0px !important;
 }
 
 .mlm {
-  margin-left: 1.5rem;
+  margin-left: 1.5rem !important;
 }
 
 .mls {
-  margin-left: 1rem;
+  margin-left: 1rem !important;
 }
 
 .mtm {
-  margin-top: 1.5rem;
+  margin-top: 1.5rem !important;
 }
 
 .mtl {
-  margin-top: 2.5rem;
+  margin-top: 2.5rem !important;
 }
 
 .mbs {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem !important;
 }
 
 .mtm {
-  margin-top: 1.5rem;
+  margin-top: 1.5rem !important;
 }
 
 /* WRAPPING LIMITS */
