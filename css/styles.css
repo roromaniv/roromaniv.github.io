@@ -240,13 +240,13 @@ textarea {
 #reviews .avatar::before {
   width: 44px;
   height: 44px;
-  animation: loader 10s infinite;
+  animation: loader 10s infinite linear;
   z-index: -1;
   position: absolute;
   left: -2px;
   bottom: -2px;
   content: " ";
-  background-image: linear-gradient(90deg, #3e4a55 0%, #ffffff 100%);
+  background-image: linear-gradient(90deg, #3e4a55 30%, #ffffff 60%);
   border-radius: 100px;
 }
 
