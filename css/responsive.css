@@ -269,7 +269,7 @@ l-left
   }
   .head > .p8:first-child,
   .head > .p6:first-child {
-    width: calc(100% - 80px);
+    padding: 80px 32px 0px 32px;
   }
   #gallery .control {
     width: 50% !important;
@@ -277,7 +277,6 @@ l-left
     bottom: 0;
   }
   #gallery .frame {
-    width: 90% !important;
     left: 5% !important;
     top: 10% !important;
   }
@@ -321,4 +320,7 @@ l-left
 
 .row div {
   width: auto;
+}
+.projects h3 {
+  display: block;
 }
