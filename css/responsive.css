@@ -24,7 +24,7 @@ body {
 }
 
 .row div {
-  width: 100%;
+  width: -webkit-fill-available;
 }
 
 .column {
@@ -324,9 +324,6 @@ l-left
   }
 }
 
-.row div {
-  width: auto;
-}
 .projects h3 {
   display: block;
 }
