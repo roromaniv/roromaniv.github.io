@@ -237,11 +237,12 @@ textarea {
   place-content: center;
 }
 
-#reviews > div > div > div::before {
+#reviews .avatar::before {
   width: 40px;
   height: 0px;
   animation: loader 3s infinite;
   z-index: 20;
+  content: " ";
 }
 
 #reviews > div > p + div {
