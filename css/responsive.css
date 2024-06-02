@@ -243,14 +243,22 @@ l-left
     height: inherit;
     box-sizing: border-box;
     padding: 32px;
-    gap: 32px;
+    gap: 16px;
+  }
+  .projects::before {
+    display: none;
   }
   .project {
     width: 100%;
     min-height: 200px;
+    border-radius: 12px;
   }
   .project div {
     zoom: 0.9;
+    border-radius: 0px 12px 0px 12px;
+  }
+  .reviews {
+    transform: none !important;
   }
   .mw200 {
     min-width: 160px;
@@ -258,9 +266,6 @@ l-left
   .prevnext,
   .menu {
     display: none;
-  }
-  .btrigger {
-    display: block !important;
   }
   .head > .p8:first-child,
   .head > .p6:first-child {
@@ -312,4 +317,8 @@ l-left
   textarea {
     width: 100%;
   }
+}
+
+.row div {
+  width: auto;
 }
