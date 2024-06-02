@@ -219,16 +219,16 @@ textarea {
   width: 100%;
 }
 
-#reviews {
+.reviews {
   width: 420px;
   position: relative;
 }
 
-#reviews .p2 {
+.reviews .p2 {
   border-radius: 12px 12px 12px 0;
 }
 
-#reviews > div > div > div {
+.reviews > div > div > div {
   width: 40px;
   height: 40px;
   background-size: cover;
@@ -237,7 +237,7 @@ textarea {
   place-content: center;
 }
 
-#reviews .avatar::before {
+.reviews .avatar::before {
   width: 44px;
   height: 44px;
   animation: loader 10s infinite linear;
@@ -254,7 +254,7 @@ div:has(.avatar) {
   margin-top: 4px;
 }
 
-#reviews > div > p + div {
+.reviews > div > p + div {
   border-left: 10px solid #f2f3f5;
   border-top: 10px solid #f2f3f5;
   border-bottom: 10px solid white;
@@ -279,7 +279,7 @@ div:has(.avatar) {
   cursor: pointer;
 }
 
-#reviews > div > p:first-child {
+.reviews > div > p:first-child {
   height: 120px;
   vertical-align: middle;
   display: table-cell;
