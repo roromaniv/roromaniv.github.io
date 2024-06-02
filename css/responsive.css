@@ -239,6 +239,8 @@ l-left
   .projects {
     flex-direction: column;
     min-width: 100%;
+    max-height: inherit;
+    height: inherit;
   }
   .project {
     width: 100%;
@@ -271,11 +273,6 @@ l-left
     left: 5% !important;
     top: 10% !important;
   }
-  .frame h2,
-  .frame p {
-    width: 80% !important;
-    margin-left: 10% !important;
-  }
   #gallery .frame .img {
     height: 60% !important;
   }
@@ -285,9 +282,6 @@ l-left
   #gallery #close {
     height: 72px !important;
     width: 72px !important;
-  }
-  .home .head div:last-child {
-    height: 30vh;
   }
   .mw400 {
     min-width: initial;
