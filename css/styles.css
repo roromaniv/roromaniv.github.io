@@ -238,15 +238,15 @@ textarea {
 }
 
 .reviews .avatar::before {
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   animation: loader 10s infinite linear;
   z-index: -1;
   position: absolute;
-  left: -2px;
-  bottom: -2px;
+  left: -3px;
+  bottom: -3px;
   content: " ";
-  background-image: linear-gradient(90deg, #3e4a55 30%, #ffffff 60%);
+  background-image: conic-gradient(#fff 0deg, #3e4a55 60deg, #fff 61deg);
   border-radius: 100px;
 }
 
