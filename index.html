@@ -187,7 +187,11 @@
                   />
                 </svg>
               </div>
-              <div class="light tile" onclick="nextSlide(); setInterval(nextSlide, 10000);" style="border-radius: 0 24px 24px 0">
+              <div class="light tile" onclick="nextSlide(); clearInterval(slideTimer);" style="border-radius: 0 24px 24px 0">
+                <script>
+                  var slideTimer=setInterval(nextSlide, 10000);
+                  slideTimer();
+                </script>
                 <svg
                   width="8"
                   height="14"
