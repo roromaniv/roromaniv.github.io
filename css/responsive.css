@@ -218,7 +218,7 @@ l-left
   }
   .head .p8,
   .head .p6 {
-    padding: 40px;
+    padding: 32px;
   }
   .pm .head > div:last-child {
     width: calc(100% - 80px);
@@ -231,7 +231,7 @@ l-left
   }
 
   .cp8 {
-    margin: -40px;
+    margin: -32px;
   }
   .projectpage .head {
     flex-direction: column-reverse !important;
@@ -241,6 +241,9 @@ l-left
     min-width: 100%;
     max-height: inherit;
     height: inherit;
+    box-sizing: border-box;
+    padding: 32px;
+    gap: 32px;
   }
   .project {
     width: 100%;
