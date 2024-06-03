@@ -42,39 +42,6 @@
   justify-content: center;
 }
 
-#tabs {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#tabs li {
-  float: left;
-  border-bottom: 1px solid #e2e6e9;
-}
-
-#tabs li a {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-  padding: 1rem;
-  cursor: pointer;
-}
-
-#tabs li:hover {
-  color: #16222e;
-}
-
-#tabs .active {
-  color: #0073ff;
-  border-bottom: 2px solid #0073ff;
-  font-weight: bold;
-}
-
-#tabs .active:hover {
-  color: #0073ff;
-}
-
 .show {
   display: block;
   opacity: 100%;
@@ -260,36 +227,6 @@ textarea {
 .tile.medium:hover {
   filter: brightness(0.95);
   transition: all 0.2s linear;
-}
-
-#tools {
-  width: 100%;
-  border-spacing: 0px;
-}
-
-#tools td {
-  padding-top: 12px;
-  display: inline-block;
-}
-
-#tools a {
-  display: inline-block;
-  padding: 4px 12px;
-  color: #3e4a55;
-  border-radius: 2px;
-  transition: all ease-in-out 0.2s;
-}
-
-#challenges a,
-#experience a {
-  display: inline-block;
-  padding: 4px 8px;
-  color: #0073ff;
-  cursor: pointer;
-  background: rgba(0, 115, 255, 0.05);
-  font-weight: 500;
-  border-radius: 2px;
-  transition: all ease-in-out 0.2s;
 }
 
 .listitem {
