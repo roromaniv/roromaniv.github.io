@@ -279,11 +279,6 @@ l-left
     height: 72px !important;
     bottom: 0;
   }
-  .projectpage #gallery .frame {
-    width: 80%;
-    left: 10% !important;
-    top: 20% !important;
-  }
   .frame h2 {
     margin-top: 2rem !important;
   }

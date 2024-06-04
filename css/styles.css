@@ -183,7 +183,7 @@ textarea {
   border-radius: 100px;
 }
 
-.frame>.row:has(.avatar) {
+.frame > .row:has(.avatar) {
   margin-top: 4px;
 }
 
