@@ -207,7 +207,7 @@ l-left
     padding: 40px;
   }
   .projects::before {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -249,7 +249,7 @@ l-left
     gap: 16px;
   }
   .projects::before {
-    display: none;
+    display: none !important;
   }
   .project {
     width: 100%;
@@ -283,9 +283,6 @@ l-left
     width: 80%;
     left: 10% !important;
     top: 20% !important;
-  }
-  #gallery .frame .img {
-    height: 60% !important;
   }
   .frame h2 {
     margin-top: 2rem !important;
