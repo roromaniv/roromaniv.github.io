@@ -286,8 +286,9 @@ l-left
     bottom: 0;
   }
   #gallery .frame {
-    left: 5% !important;
-    top: 10% !important;
+    width: 80%;
+    left: 10% !important;
+    top: 20% !important;
   }
   #gallery .frame .img {
     height: 60% !important;
@@ -304,7 +305,7 @@ l-left
   }
   .projectpage .cp8 .row {
     height: 40vw !important;
-    width: calc(100% - 160px);
+    width: calc(100% - 96px);
   }
   .projectpage .cp8 > .previewparent:first-child {
     height: 60vw !important;
