@@ -212,12 +212,6 @@ l-left
 }
 
 @media screen and (max-width: 320px) and (orientation: portrait) {
-  .projects::before {
-    display: none;
-  }
-  .projects h3 {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 320px) and (orientation: portrait) {
@@ -285,7 +279,7 @@ l-left
     height: 72px !important;
     bottom: 0;
   }
-  #gallery .frame {
+  .projectpage #gallery .frame {
     width: 80%;
     left: 10% !important;
     top: 20% !important;
@@ -328,6 +322,6 @@ l-left
   }
 }
 
-.projects h3 {
-  display: block;
+.projects h2 {
+  display: block !important;
 }
