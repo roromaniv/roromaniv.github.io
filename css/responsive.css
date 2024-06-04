@@ -269,7 +269,11 @@ l-left
   }
   .head > .p8:first-child,
   .head > .p6:first-child {
-    padding: 80px 32px 0px 32px;
+    padding: 72px 32px 0px 32px;
+  }
+  .projectpage .head > .p8:first-child,
+  .projectpage .head > .p6:first-child {
+    padding: 40px 32px 0px 32px;
   }
   #gallery .control {
     width: 50% !important;
