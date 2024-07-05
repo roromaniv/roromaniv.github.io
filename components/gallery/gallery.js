@@ -56,21 +56,43 @@ let nextSlide = function () {
     if (frames[i].classList.contains("show")) {
       frames[i].classList.add("animate__animated", "animate__fadeOutLeft");
       frames[i].addEventListener("animationend", () => {
-        frames[i].classList.remove("show");
-        frames[i].classList.remove("animate__animated");
-        frames[i].classList.remove("animate__fadeOutLeft");
+        frames[i].classList.remove(
+          "show",
+          "animate__animated",
+          "animate__fadeOutLeft"
+        );
         frames[i].classList.add("hide");
+
+        if (i + 1 < frames.length) {
+          frames[i + 1].classList.add(
+            "show",
+            "animate__animated",
+            "animate__fadeInRight"
+          );
+          frames[i + 1].classList.remove("hide");
+          frames[i].addEventListener("animationend", () => {
+            frames[i + 1].classList.remove(
+              "animate__animated",
+              "animate__fadeInRight"
+            );
+          });
+          return;
+        } else {
+          frames[i + 1].classList.add(
+            "show",
+            "animate__animated",
+            "animate__fadeInRight"
+          );
+          frames[i + 1].classList.remove("hide");
+          frames[i].addEventListener("animationend", () => {
+            frames[i + 1].classList.remove(
+              "animate__animated",
+              "animate__fadeInRight"
+            );
+          });
+          return;
+        }
       });
-      if (i + 1 < frames.length) {
-        frames[i + 1].classList.add("show");
-        frames[i + 1].classList.remove("hide");
-        return;
-      } else {
-        i = -1;
-        frames[i + 1].classList.add("show");
-        frames[i + 1].classList.remove("hide");
-        return;
-      }
     }
   }
 };
