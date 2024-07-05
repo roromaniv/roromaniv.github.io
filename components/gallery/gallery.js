@@ -54,8 +54,13 @@ let nextSlide = function () {
   );
   for (let i = 0; i < frames.length; i++) {
     if (frames[i].classList.contains("show")) {
-      frames[i].classList.remove("show");
-      frames[i].classList.add("hide");
+      frames[i].classList.add("animate__animated", "animate__fadeOutLeft");
+      frames[i].addEventListener("animationend", () => {
+        frames[i].classList.remove("show");
+        frames[i].classList.remove("animate__animated");
+        frames[i].classList.remove("animate__fadeOutLeft");
+        frames[i].classList.add("hide");
+      });
       if (i + 1 < frames.length) {
         frames[i + 1].classList.add("show");
         frames[i + 1].classList.remove("hide");
