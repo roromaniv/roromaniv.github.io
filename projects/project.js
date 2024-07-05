@@ -12,7 +12,6 @@ let projectInit = function (projectIndex) {
   projectDOM.setRequestHeader("Cache-Control", "no-cache");
   projectDOM.onload = function () {
     insertJSON(projectDOM.responseText.toString(), projectIndex);
-    bmenuInit();
   };
   projectDOM.send();
 
