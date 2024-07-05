@@ -1,3 +1,7 @@
+:root {
+  --animate-duration: 0.2s;
+}
+
 #gallery {
   z-index: 10000;
   position: fixed;
@@ -79,7 +83,6 @@
 
 .frame {
   text-align: center;
-  --animate-duration: 0.2s;
 }
 .frame h2,
 .frame p {
