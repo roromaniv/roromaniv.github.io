@@ -6,6 +6,10 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+:root {
+  --animate-duration: 0.2s;
+}
+
 .prev,
 .next {
   font-size: 20px;

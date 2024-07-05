@@ -1,7 +1,3 @@
-:root {
-  --animate-duration: 0.2s;
-}
-
 #gallery {
   z-index: 10000;
   position: fixed;
