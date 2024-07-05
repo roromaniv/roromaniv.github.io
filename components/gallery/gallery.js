@@ -78,6 +78,7 @@ let nextSlide = function () {
           });
           return;
         } else {
+          i = -1;
           frames[i + 1].classList.add(
             "show",
             "animate__animated",

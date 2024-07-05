@@ -79,6 +79,7 @@
 
 .frame {
   text-align: center;
+  --animate-duration: 0.2s;
 }
 .frame h2,
 .frame p {
