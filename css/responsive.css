@@ -206,9 +206,6 @@ l-left
   .head .p8 {
     padding: 40px;
   }
-  .projects::before {
-    display: none !important;
-  }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {

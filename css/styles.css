@@ -263,7 +263,7 @@ textarea {
 }
 
 .projects::before {
-  content: "Scroll projects →";
+  content: "← Scroll projects →";
   background-color: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   position: fixed;
