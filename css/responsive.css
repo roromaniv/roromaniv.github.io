@@ -209,9 +209,9 @@ l-left
   #facts + .row{
     display: none;
   }
-  .projectpage > .t-black > .column{
+  .projectpage .t-black > .column{
     display: flex;
-  justify-content: center;
+    justify-content: center;
   }
 }
 
