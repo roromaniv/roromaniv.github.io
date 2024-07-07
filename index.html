@@ -198,7 +198,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
       const projects = document.getElementsByClassName('projects')[0];
-      if (projects.getElementsByTagName("h2")[0].offsetWidth = 0) { projects.innerHTML += projects.innerHTML; }
+      if (projects.getElementsByTagName("h2")[0].offsetWidth == 0) { projects.innerHTML += projects.innerHTML; }
       projects.addEventListener('scroll', () => {
         if (projects.scrollLeft > (((projects.children.length - 2) * projects.children[1].offsetWidth) / 2)) {
           projects.scroll({ left: 1, behavior: "instant" });
