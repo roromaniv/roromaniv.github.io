@@ -13,27 +13,27 @@
     "images": [{
         "name": "Image title",
         "description": "A short description",
-        "link": "/projects/xelonhq/preview.jpg"
+        "link": "/projects/xelonhq/preview.webp"
     },
     {
         "name": "Title 2",
         "description": "Description 2",
-        "link": "/projects/xelonhq/1.png"
+        "link": "/projects/xelonhq/1.webp"
     },
     {
         "name": "Title",
         "description": "",
-        "link": "/projects/xelonhq/2.png"
+        "link": "/projects/xelonhq/2.webp"
     },
     {
         "name": "Title",
         "description": "",
-        "link": "/projects/xelonhq/3.png"
+        "link": "/projects/xelonhq/3.webp"
     },
     {
         "name": "Title",
         "description": "",
-        "link": "/projects/xelonhq/4.png"
+        "link": "/projects/xelonhq/4.webp"
     }
     ]
 }

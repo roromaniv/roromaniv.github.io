@@ -14,37 +14,37 @@
     "images": [{
         "name": "App icon",
         "description": "Just a quick concept",
-        "link": "/projects/notspent/notspent.jpg"
+        "link": "/projects/notspent/notspent.webp"
     },
     {
         "name": "20+ screens",
         "description": "With nearly 10 hours spent for a quick research, I used the remaining 20 hours to work on the UI",
-        "link": "/projects/notspent/1.jpg"
+        "link": "/projects/notspent/1.webp"
     },
     {
         "name": "Spending by categories",
         "description": "The homescreen shows spendings by category with some useful info - budget alerts, spending frequency and more.",
-        "link": "/projects/notspent/categories.png"
+        "link": "/projects/notspent/categories.webp"
     },
     {
         "name": "Savings & goals",
         "description": "A part of the app that allows you to lock some funds and save it toward some goal",
-        "link": "/projects/notspent/savings.png"
+        "link": "/projects/notspent/savings.webp"
     },
     {
         "name": "Bank accounts & cards",
         "description": "Add your payment methods, and if needed, for your family. See the history of expenses and some other useful info.",
-        "link": "/projects/notspent/accounts.png"
+        "link": "/projects/notspent/accounts.webp"
     },
     {
         "name": "Budget planning",
         "description": "A part of the app that allows you to lock some funds and save it toward some goal",
-        "link": "/projects/notspent/budget.png"
+        "link": "/projects/notspent/budget.webp"
     },
     {
         "name": "Profile",
         "description": "A part of the app that allows you to lock some funds and save it toward some goal",
-        "link": "/projects/notspent/profile.png"
+        "link": "/projects/notspent/profile.webp"
     }
 
     ]

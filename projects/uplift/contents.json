@@ -17,27 +17,27 @@
     {
       "name": "Image title",
       "description": "A short description",
-      "link": "/projects/uplift/uplift.jpg"
+      "link": "/projects/uplift/uplift.webp"
     },
     {
       "name": "Title 2",
       "description": "Description 2",
-      "link": "/projects/uplift/onboarding.png"
+      "link": "/projects/uplift/onboarding.webp"
     },
     {
       "name": "Title",
       "description": "",
-      "link": "/projects/uplift/home.png"
+      "link": "/projects/uplift/home.webp"
     },
     {
       "name": "Title",
       "description": "",
-      "link": "/projects/uplift/shop.png"
+      "link": "/projects/uplift/shop.webp"
     },
     {
       "name": "Title",
       "description": "",
-      "link": "/projects/uplift/illustrations.png"
+      "link": "/projects/uplift/illustrations.webp"
     }
   ]
 }
