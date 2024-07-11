@@ -1,6 +1,9 @@
 {
     "title": "Project Name",
+    "meta_description": "",
     "paragraph": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque  lacinia quam venenatis vestibulum. Nullam id nibh ultricies vehicula. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "link": "https://www.google.com/",
+    "buttonTitle": "Learn more",
     "facts": [{
         "fact": "PROJECT HOURS",
         "value": "1000+"
