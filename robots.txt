@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /
 Disallow: /demos/
 Disallow: /projects/template/
+Disallow: /projects/markdown/
