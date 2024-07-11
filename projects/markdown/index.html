@@ -28,13 +28,11 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.4/tocbot.min.js"></script>
     <script>
-        addEventListener("DOMContentLoaded", (event) => {
-            tocbot.init({
-                tocElement: document.getElementsByClassName("js-toc"),
-                contentElement: document.getElementsByTagName("zero-md")[0],
-                headingSelector: 'h1, h2, h3',
-                hasInnerContainers: true,
-            });
+        tocbot.init({
+            tocElement: document.getElementsByClassName("js-toc"),
+            contentElement: document.getElementsByTagName("zero-md")[0],
+            headingSelector: 'h1, h2, h3',
+            hasInnerContainers: true,
         });
     </script>
 </body>
