@@ -25,7 +25,7 @@ let projectInit = function (projectIndex) {
 
       //META
       document.title = "Project – " + content.title;
-      document.querySelector("meta[name='description']").attr("content", content.meta_description);
+      document.querySelector("meta[name='description']").setAttribute("content", content.meta_description);
 
       //TEXT AND BUTTON
       document.getElementById("title").innerHTML = content.title;
