@@ -23,9 +23,12 @@ let projectInit = function (projectIndex) {
       let content = JSON.parse(json.responseText);
       document.body.innerHTML += DOM;
 
+      //META
+      document.title = "Project – " + content.title;
+      document.querySelector("meta[name='description']").attr("content", content.meta);
+
       //TEXT AND BUTTON
       document.getElementById("title").innerHTML = content.title;
-      document.title = "Project – " + content.title;
       document.getElementById("paragraph").innerHTML = content.paragraph;
       for (let i = 0; i < content["facts"].length; i++) {
         document.getElementById("facts").innerHTML +=
