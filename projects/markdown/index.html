@@ -27,7 +27,9 @@
         </div>
     </div>
     <script>
+        let mdbody = document.getElementsByClassName("markdown-body")[0];
         let toc = "";
+
         mdbody.children.forEach(element => {
             if (element = "h1") {
                 toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
