@@ -26,14 +26,20 @@
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.4/tocbot.min.js"></script>
     <script>
-        tocbot.init({
-            tocElement: document.getElementsByClassName("js-toc")[0],
-            contentElement: document.getElementsByClassName("markdown-body")[0],
-            headingSelector: 'h1, h2, h3',
-            hasInnerContainers: true,
+        let toc = "";
+        mdbody.children.forEach(element => {
+            if (element = "h1") {
+                toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
+            }
+            else if (element = "h2") {
+                toc += "<a class='pl6' href='" + element.id + "'>" + element.innerText + "</a>";
+            }
+            else if (element = "h3") {
+                toc += "<a class='pl8' href='" + element.id + "'>" + element.innerText + "</a>";
+            }
         });
+        document.getElementsByClassName("js-toc")[0].innerHTML = toc;
     </script>
 </body>
 
