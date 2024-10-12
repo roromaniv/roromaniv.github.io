@@ -216,9 +216,9 @@
   <script>
     if (window.innerWidth > 768) {
       window.addEventListener('wheel', function (e) {
-        e.preventDefault(); // Prevent the default vertical scroll behavior
-        const scrollContainer = document.querySelector(".projects")[0];
-        scrollContainer.scrollLeft += e.deltaY; // Apply vertical scroll to horizontal
+        e.preventDefault();
+        const scrollContainer = document.querySelector(".projects");
+        scrollContainer.scrollLeft += e.deltaY;
       });
     } 
   </script>
