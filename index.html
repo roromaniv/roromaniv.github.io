@@ -214,13 +214,15 @@
     });
   </script>
   <script>
-    if (window.innerWidth > 768) { //add event tracker
-      window.addEventListener('wheel', function (e) {
-        e.preventDefault();
-        const scrollContainer = document.querySelector(".projects");
-        scrollContainer.scrollLeft += e.deltaY;
-      });
-    } 
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 768) {
+        window.addEventListener('wheel', function (e) {
+          e.preventDefault();
+          const scrollContainer = document.querySelector(".projects");
+          scrollContainer.scrollLeft += e.deltaY;
+        });
+      }
+    }
   </script>
 </body>
 
