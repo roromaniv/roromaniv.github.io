@@ -212,9 +212,7 @@
         }
       });
     });
-  </script>
-  <script>
-    window.addEventListener('resize', function () {
+    let VHscroll = function () {
       if (window.innerWidth > 768) {
         window.addEventListener('wheel', function (e) {
           e.preventDefault();
@@ -222,6 +220,10 @@
           scrollContainer.scrollLeft += e.deltaY;
         });
       }
+    }
+    VHscroll;
+    window.addEventListener('resize', function () {
+      VHscroll;
     }
   </script>
 </body>
