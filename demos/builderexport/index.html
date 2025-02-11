@@ -27,8 +27,15 @@
             background: black;
         }
 
-        .video-container::after{
+        .video-container::before {
+            content: "";
+            position: absolute;
+            border-radius: 0;
+            z-index: -10;
+            width: 480px;
+            height: 480px;
             background-image: url("/demos/builderexport/circles.svg");
+            background-position: center;
         }
 
         video {
