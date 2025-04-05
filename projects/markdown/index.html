@@ -12,7 +12,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/components/gallery/gallery.css" />
     <script type="application/javascript" src="/components/gallery/gallery.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md"></script>
 </head>
 
 <body>
@@ -27,7 +27,8 @@
         </div>
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('zero-md').addEventListener('zero-md-rendered', () => {
+            console.log('Markdown has been fully rendered!');
             let mdbody = document.getElementsByTagName("zero-md")[0].shadowRoot.childNodes[1];
             let toc = "";
 
