@@ -27,19 +27,21 @@
         </div>
     </div>
     <script>
-        let mdbody = document.getElementsByTagName("zero-md")[0].shadowRoot.childNodes[1];
-        let toc = "";
+        document.addEventListener('DOMContentLoaded', function () {
+            let mdbody = document.getElementsByTagName("zero-md")[0].shadowRoot.childNodes[1];
+            let toc = "";
 
-        mdbody.children.forEach(element => {
-            if (element.tagName == "h1") {
-                toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
-            } else if (element.tagName == "h2") {
-                toc += "<a class='pl6' href='" + element.id + "'>" + element.innerText + "</a>";
-            } else if (element.tagName == "h3") {
-                toc += "<a class='pl8' href='" + element.id + "'>" + element.innerText + "</a>";
-            }
+            mdbody.children.forEach(element => {
+                if (element.tagName == "h1") {
+                    toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
+                } else if (element.tagName == "h2") {
+                    toc += "<a class='pl6' href='" + element.id + "'>" + element.innerText + "</a>";
+                } else if (element.tagName == "h3") {
+                    toc += "<a class='pl8' href='" + element.id + "'>" + element.innerText + "</a>";
+                }
+            });
+            document.getElementsByClassName("js-toc")[0].innerHTML = toc;
         });
-        document.getElementsByClassName("js-toc")[0].innerHTML = toc;
     </script>
 </body>
 
