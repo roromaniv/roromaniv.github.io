@@ -1,56 +1,59 @@
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .fw {
-  width: 100%;
+    width: 100%;
 }
 
-html, .fh {
-  height: 100%;
+html,
+.fh {
+    height: 100%;
 }
+
 
 /* FLEX CLASSES */
 
 .row {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .row div {
-  width: -webkit-fill-available;
+    width: -webkit-fill-available;
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .g1 {
-  flex: 1;
+    flex: 1;
 }
 
 .g2 {
-  flex: 2;
+    flex: 2;
 }
 
 .g3 {
-  flex: 3;
+    flex: 3;
 }
 
 .g4 {
-  flex: 4;
+    flex: 4;
 }
 
 .g5 {
-  flex: 5;
+    flex: 5;
 }
+
 
 /* SCREEN-RELATIVE SCALING 
 v - vertical
@@ -58,41 +61,42 @@ v - vertical
 */
 
 .column.v {
-  justify-content: center;
+    justify-content: center;
 }
 
 .row.v {
-  align-items: center;
+    align-items: center;
 }
 
 .v-1-3 {
-  min-height: 100px;
-  max-height: calc(100vh / 3);
-  height: calc(100vh / 3);
+    min-height: 100px;
+    max-height: calc(100vh / 3);
+    height: calc(100vh / 3);
 }
 
 .v-5-12 {
-  min-height: 300px;
-  max-height: calc(100vh * 5 / 12);
-  height: calc(100vh * 5 / 12);
+    min-height: 300px;
+    max-height: calc(100vh * 5 / 12);
+    height: calc(100vh * 5 / 12);
 }
 
 .v-1-6 {
-  min-height: 100px;
-  max-height: calc(100vh / 6);
-  height: calc(100vh / 6);
+    min-height: 100px;
+    max-height: calc(100vh / 6);
+    height: calc(100vh / 6);
 }
 
 .v-5-6 {
-  min-height: 560px;
-  max-height: calc(100vh * 5 / 6);
-  height: calc(100vh * 5 / 6);
+    min-height: 560px;
+    max-height: calc(100vh * 5 / 6);
+    height: calc(100vh * 5 / 6);
 }
 
 .v-2-3 {
-  min-height: 400px;
-  height: calc(100vh * 2 / 3);
+    min-height: 400px;
+    height: calc(100vh * 2 / 3);
 }
+
 
 /* PADDINGS & MARGINS
 p – padding
@@ -105,228 +109,236 @@ l-left
 */
 
 .p2 {
-  padding: 20px;
+    padding: 20px;
 }
 
 .pt2 {
-  padding-top: 20px;
+    padding-top: 20px;
+}
+
+.p4 {
+    padding: 40px;
+}
+
+.pl4 {
+    padding-left: 40px;
 }
 
 .p6 {
-  padding: 60px;
+    padding: 60px;
 }
 
 .pl6 {
-  padding-left: 60px;
+    padding-left: 60px;
 }
 
 .pr6 {
-  padding-right: 60px;
+    padding-right: 60px;
 }
 
 .pl8 {
-  padding-left: 80px;
+    padding-left: 80px;
 }
 
 .pr8 {
-  padding-right: 80px;
+    padding-right: 80px;
 }
 
 .pt8 {
-  padding-top: 80px;
+    padding-top: 80px;
 }
 
 .p8 {
-  padding: 80px;
+    padding: 80px;
 }
 
 .cpl8 {
-  margin-left: -80px !important;
-  width: calc(100% + 80px) !important;
+    margin-left: -80px !important;
+    width: calc(100% + 80px) !important;
 }
 
 .cp8 {
-  margin: -80px;
-  width: calc(100% + 160px) !important;
-  height: calc(100% + 160px) !important;
+    margin: -80px;
+    width: calc(100% + 160px) !important;
+    height: calc(100% + 160px) !important;
 }
 
 .m0 {
-  margin: 0px !important;
+    margin: 0px !important;
 }
 
 .mlm {
-  margin-left: 1.5rem !important;
+    margin-left: 1.5rem !important;
 }
 
 .mls {
-  margin-left: 1rem !important;
+    margin-left: 1rem !important;
+}
+
+.mts {
+    margin-top: 1rem !important;
 }
 
 .mtm {
-  margin-top: 1.5rem !important;
+    margin-top: 1.5rem !important;
 }
 
 .mtl {
-  margin-top: 2.5rem !important;
+    margin-top: 2.5rem !important;
 }
 
 .mbs {
-  margin-bottom: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 }
 
-.mtm {
-  margin-top: 1.5rem !important;
-}
 
 /* WRAPPING LIMITS */
 
 .mw200 {
-  min-width: 200px;
+    min-width: 200px;
 }
 
 .mw400 {
-  min-width: 400px;
+    min-width: 400px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .menu a {
-    width: calc(50% - 80px);
-    padding: 0 40px;
-    height: 50%;
-  }
-  .menu {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .menu a p {
-    display: none;
-  }
-  .head .p6,
-  .head .p8 {
-    padding: 40px;
-  }
-  #facts + .row{
-    display: none;
-  }
-  .projectpage .t-black > .column{
-    display: flex;
-    justify-content: center;
-  }
+    .menu a {
+        width: calc(50% - 80px);
+        padding: 0 40px;
+        height: 50%;
+    }
+    .menu {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .menu a p {
+        display: none;
+    }
+    .head .p6,
+    .head .p8 {
+        padding: 40px;
+    }
+    #facts+.row {
+        display: none;
+    }
+    .projectpage .t-black>.column {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
-  .head {
-    flex-direction: column !important;
-    height: fit-content;
-  }
-  .head .p8,
-  .head .p6 {
-    padding: 32px;
-  }
-  .pm .head > div:last-child {
-    width: calc(100% - 80px);
-    background: none !important;
-    border-top: 1px solid #f2f3f5;
-  }
-  #tabs a {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-  }
-
-  .cp8 {
-    margin: -32px;
-  }
-  .projectpage .head {
-    flex-direction: column-reverse !important;
-  }
-  .projects {
-    flex-direction: column;
-    min-width: 100%;
-    max-height: inherit;
-    height: inherit;
-    box-sizing: border-box;
-    padding: 32px;
-    gap: 16px;
-  }
-  .projects::before {
-    display: none !important;
-  }
-  .project {
-    width: 100%;
-    min-height: 200px;
-    border-radius: 12px;
-  }
-  .project div {
-    zoom: 0.9;
-    border-radius: 0px 12px 0px 12px;
-  }
-  .reviews {
-    transform: none !important;
-  }
-  .mw200 {
-    min-width: 160px;
-  }
-  .prevnext,
-  .menu {
-    display: none;
-  }
-  .head > .p8:first-child,
-  .head > .p6:first-child {
-    padding: 72px 32px 0px 32px;
-  }
-  .projectpage .head > .p8:first-child,
-  .projectpage .head > .p6:first-child {
-    padding: 40px 32px 0px 32px;
-  }
-  #gallery .control {
-    width: 50% !important;
-    height: 72px !important;
-    bottom: 0;
-  }
-  .frame h2 {
-    margin-top: 2rem !important;
-  }
-  #gallery #close {
-    height: 72px !important;
-    width: 72px !important;
-  }
-  .mw400 {
-    min-width: initial;
-  }
-  .projectpage .cp8 .row {
-    height: 40vw !important;
-    width: calc(100% - 96px);
-  }
-  .projectpage .cp8 > .previewparent:first-child {
-    height: 60vw !important;
-    width: 100vw !important;
-  }
-  .v-5-6 {
-    max-height: unset;
-  }
-  #reviews {
-    width: calc(100% + 2rem) !important;
-    margin: 1.2rem -1rem;
-  }
-  .contacts {
-    width: 100%;
-    background: none !important;
-  }
-  input,
-  textarea {
-    width: 100%;
-  }
-  .projects h2 {
-    display: block !important;
-  }
-  .projectpage .prev {
-    height: auto;
-    padding: 0 120px;
-    margin: 40px -80px 0px -80px !important;
-  }
-  .projectpage #gallery .frame {
-    left: 10% !important;
-    width: 80% !important;
-  }
+    .head {
+        flex-direction: column !important;
+        height: fit-content;
+    }
+    .head .p8,
+    .head .p6 {
+        padding: 32px;
+    }
+    .pm .head>div:last-child {
+        width: calc(100% - 80px);
+        background: none !important;
+        border-top: 1px solid #f2f3f5;
+    }
+    #tabs a {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .cp8 {
+        margin: -32px;
+    }
+    .projectpage .head {
+        flex-direction: column-reverse !important;
+    }
+    .projects {
+        flex-direction: column;
+        min-width: 100%;
+        max-height: inherit;
+        height: inherit;
+        box-sizing: border-box;
+        padding: 32px;
+        gap: 16px;
+    }
+    .projects::before {
+        display: none !important;
+    }
+    .project {
+        width: 100%;
+        min-height: 200px;
+        border-radius: 12px;
+    }
+    .project div {
+        zoom: 0.9;
+        border-radius: 0px 12px 0px 12px;
+    }
+    .reviews {
+        transform: none !important;
+    }
+    .mw200 {
+        min-width: 160px;
+    }
+    .prevnext,
+    .menu {
+        display: none;
+    }
+    .head>.p8:first-child,
+    .head>.p6:first-child {
+        padding: 72px 32px 0px 32px;
+    }
+    .projectpage .head>.p8:first-child,
+    .projectpage .head>.p6:first-child {
+        padding: 40px 32px 0px 32px;
+    }
+    #gallery .control {
+        width: 50% !important;
+        height: 72px !important;
+        bottom: 0;
+    }
+    .frame h2 {
+        margin-top: 2rem !important;
+    }
+    #gallery #close {
+        height: 72px !important;
+        width: 72px !important;
+    }
+    .mw400 {
+        min-width: initial;
+    }
+    .projectpage .cp8 .row {
+        height: 40vw !important;
+        width: calc(100% - 96px);
+    }
+    .projectpage .cp8>.previewparent:first-child {
+        height: 60vw !important;
+        width: 100vw !important;
+    }
+    .v-5-6 {
+        max-height: unset;
+    }
+    #reviews {
+        width: calc(100% + 2rem) !important;
+        margin: 1.2rem -1rem;
+    }
+    .contacts {
+        width: 100%;
+        background: none !important;
+    }
+    input,
+    textarea {
+        width: 100%;
+    }
+    .projects h2 {
+        display: block !important;
+    }
+    .projectpage .prev {
+        height: auto;
+        padding: 0 120px;
+        margin: 40px -80px 0px -80px !important;
+    }
+    .projectpage #gallery .frame {
+        left: 10% !important;
+        width: 80% !important;
+    }
 }
