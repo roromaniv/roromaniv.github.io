@@ -33,6 +33,7 @@
             let toc = "";
 
             Array.from(mdbody.children).forEach(element => {
+                console.log(element);
                 if (element.tagName == "h1") {
                     toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
                 } else if (element.tagName == "h2") {
