@@ -32,7 +32,7 @@
             let mdbody = document.getElementsByTagName("zero-md")[0].shadowRoot.childNodes[1];
             let toc = "";
 
-            mdbody.children.forEach(element => {
+            Array.from(mdbody.children).forEach(element => {
                 if (element.tagName == "h1") {
                     toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
                 } else if (element.tagName == "h2") {
