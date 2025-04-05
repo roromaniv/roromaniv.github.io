@@ -27,7 +27,7 @@
         </div>
     </div>
     <script>
-        let mdbody = document.getElementsByClassName("markdown-body")[0];
+        let mdbody = document.getElementsByTagName("zero-md")[0].shadowRoot.childNodes[1];
         let toc = "";
 
         mdbody.children.forEach(element => {
