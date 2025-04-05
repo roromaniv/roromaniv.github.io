@@ -31,13 +31,11 @@
         let toc = "";
 
         mdbody.children.forEach(element => {
-            if (element = "h1") {
+            if (element.tagName == "h1") {
                 toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
-            }
-            else if (element = "h2") {
+            } else if (element.tagName == "h2") {
                 toc += "<a class='pl6' href='" + element.id + "'>" + element.innerText + "</a>";
-            }
-            else if (element = "h3") {
+            } else if (element.tagName == "h3") {
                 toc += "<a class='pl8' href='" + element.id + "'>" + element.innerText + "</a>";
             }
         });
