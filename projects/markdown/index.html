@@ -35,11 +35,16 @@
             Array.from(mdbody.children).forEach(element => {
                 console.log(element);
                 if (element.tagName == "h1") {
+                    console.log("h1 debug");
                     toc += "<a href='" + element.id + "'>" + element.innerText + "</a>";
                 } else if (element.tagName == "h2") {
                     toc += "<a class='pl6' href='" + element.id + "'>" + element.innerText + "</a>";
+
+                    console.log("h2 debug");
                 } else if (element.tagName == "h3") {
                     toc += "<a class='pl8' href='" + element.id + "'>" + element.innerText + "</a>";
+
+                    console.log("h3 debug");
                 }
             });
             document.getElementsByClassName("js-toc")[0].innerHTML = toc;
